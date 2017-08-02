@@ -1,0 +1,82 @@
+---
+title: A partition theorem for finite trees
+date: 2012-03-03 19:32:37
+permalink: /archives/781/
+published: true
+categories: [combinatorics]
+tags: [Ramsey Theory, Finite Trees, Ultrametric Spaces]
+people: [Alexander Kechris, Daniel McDonald, Frank Ramsey, Lionel Nguyen van Thé, Manuel Rivera, Richard Rado, Steven Gubkin, Stevo Todorcevic, Vladimir Pestov]
+bibliography:
+  - authors: [F. G. Dorais, S. Gubkin, D. McDonald, M. Rivera] 
+    year: 2013
+    title: "Automorphism groups of countably categorical linear orders are extremely amenable" 
+    cite: "Order 30, 415-426"
+    doi: "10.1007/s11083-012-9252-6"
+    arxiv: "1202.4092"
+    mr: "3063195"
+    zbl: "1279.06002"
+  - authors: [A. S. Kechris, V. G. Pestov, S. Todorcevic] 
+    year: 2005
+    title: "Fraïssé limits, Ramsey theory, and topological dynamics"
+    cite: "Geom. Funct. Anal. 15, no. 1, 106-189"
+    arxiv: "math/0305241"
+    doi: "10.1007/s00039-005-0503-1"
+    mr: "2140630"
+    zbl: "1084.54014"
+  - authors: [L. Nguyen Van Thé] 
+    year: 2009
+    title: "Ramsey degrees of finite ultrametric spaces, ultrametric Urysohn spaces and dynamics of their isometry groups"
+    cite: "European J. Combin. 30, no. 4, 934-945"
+    doi: "10.1016/j.ejc.2008.07.007"
+    arxiv: "0710.2347"
+    mr: "2504653"
+    zbl: "1171.05436"
+  - authors: [R. Rado] 
+    year: 1954
+    title: "Direct decomposition of partitions" 
+    cite: "J. London Math. Soc. 29, 71-83"
+    doi: "10.1112/jlms/s1-29.1.71"
+    mr: "0065616"
+    zbl: "0055.04903"
+  - authors: [F. P. Ramsey]
+    year: 1930
+    title: "On a problem of formal logic" 
+    cite: "Proc. London Math. Soc. (2) 30, 264-286"
+    doi: "10.1112/plms/s2-30.1.264"
+    mr: "1576401"
+    zbl: "55.0032.04"
+---
+In a recent paper (Dorais-Gubkin-McDonald-Rivera 2013), Steven Gubkin, Daniel McDonald, Manuel Rivera, and I stumbled across what appears to be a new result in Ramsey theory. As the title of our paper suggests, this result was not exactly our main goal. Nevertheless, the result is very interesting so I feel it is a good idea to give it some extra publicity by writing about it here. I will only talk about a special case of our result (the case of Corollary 5.5 where the tree presentation has no sum nodes) and I will present it in a slightly different light. Our proof is somewhat convoluted, one could even say that the result is an accidental byproduct of the main result of the paper on automorphism groups of countably categorical linear orders. Because of this, I don't feel like I understand how our result fits in the spectrum of known results in Ramsey theory. It is my hope that some of you may be able to fill-in some of the missing links... 
+
+Our new partition theorem is about (finite) ordered rooted trees. There are unfortunately several definitions needed to conveniently state our result. Recall that a _rooted tree_ is a connected acyclic graph with a distinguished vertex, the _root_ of the tree. For every node $$t$$ in a tree there is a unique path leading from $$t$$ to the root. If $$t$$ is not the root, the next node along this path is the _parent_ of $$t;$$ the other nodes adjacent to $$t$$ are the _child_ nodes of $$t,$$ these are the nodes that $$t$$ is the parent of. The root is the only node without a parent; node with no children is called a _leaf_ node. 
+
+A _homomorphism_ from a rooted tree $$U$$ to a rooted tree $$T$$ is a map $$h$$ from nodes of $$U$$ to nodes of $$T$$ that preserves the root and the child-parent relationship. So $$h$$ must send the root of $$U$$ to the root of $$T$$ and if $$u$$ is the parent of $$u'$$ in $$U$$ then $$h(u)$$ must be the parent of $$h(u')$$ in $$T.$$ Note that $$h$$ does not need to be one-to-one: two children $$u',u''$$ of $$u$$ in $$U$$ could be mapped to the same child of $$h(u)$$ in $$T.$$ 
+
+A rooted tree $$U$$ can be _lexicographically ordered_ by choosing a linear ordering on the children of each node. This induces a linear ordering of all nodes as follows: $$u \lt v$$ when $$u$$ is on the path leading from $$v$$ to the root of $$U,$$ or $$u' \lt v'$$ where $$u'$$ and $$v'$$ are the nodes along the paths leading from $$u$$ and $$v$$ to the root immediately before their greatest common ancestor (note that $$u'$$ and $$v'$$ are both children of this common ancestor so we can compare them). It is easy to check that this is indeed a linear ordering of the nodes of $$U.$$ What will be important to us is that this induces a linear ordering of the set of leaves $$L$$ of $$U$$ and that the set of all leaves that descend from a node $$u$$ of $$U$$ form an interval of $$L.$$ An _ordered rooted tree_ is a rooted tree together with a lexicographic ordering. 
+
+Fix a rooted tree $$T.$$ An _ordered $$T$$-tree_ is an ordered rooted tree $$U$$ together with a homomorphism $$h:U\to T$$ with the property that $$h$$ maps leaves of $$U$$ to leaves of $$T.$$ In other words, if $$h(u)$$ has a child in $$T$$ then $$u$$ must also have a child in $$U.$$ If $$U$$ and $$V$$ are ordered $$T$$-trees then $$\binom{U}{V}$$ is the set of all ordered $$T$$-subtrees of $$U$$ that are isomorphic to $$V$$ (an isomorphism between ordered $$T$$-trees is required to preserve the root, the child-parent relation, the lexicographic ordering, as well as the homomorphism to the rooted tree $$T$$). Let $$U,V,W$$ be ordered $$T$$-trees and let $$k$$ be a positive integer, the partition relation $$W \to (U)^V_k$$ means that: 
+
+_For every coloring $$c:\binom{W}{V}\to\set{0,\dots,k-1}$$ there are a color $$d \lt k$$ and a $$U' \in \binom{W}{U}$$ such that $$c(V') = d$$ for all $$V' \in \binom{U'}{V}.$$_
+
+Note that if we were dealing with plain sets instead of $$T$$-trees and $$\binom{X}{Y}$$ denoted all subsets of $$X$$ that are isomorphic to $$Y$$ (i.e., have the same size as $$Y$$) then the above is exactly as in the statement of Ramsey's theorem. 
+
+We are now ready to state our partition theorem for finite ordered rooted trees. 
+
+**Theorem.** _Let $$T$$ be a rooted tree. For all ordered $$T$$-trees $$U, V$$ and every positive integer $$k,$$ there is a $$T$$-tree $$W$$ such that $$W \to (U)^V_k.$$_
+
+This result is particularly versatile. It implies some interesting results in Ramsey theory, though that can only be seen by coding certain structures into $$T$$-trees for some appropriate choice of $$T.$$ 
+
+Ramsey's theorem (Ramsey 1930) is one of the consequences of our partition theorem. Let $$T$$ be the rooted tree with two nodes — the root and one leaf. A $$T$$-tree is simply an ordered tree with a distinguished root and a certain number of leaves. Say $$U$$ and $$V$$ are $$T$$-trees with $$u$$ and $$v$$ leaves, respectively. Then an element $$V'$$ of $$\binom{U}{V}$$ consists of a selection of $$v$$ leaves of $$U$$ together with the root of $$U.$$ In other words, if we forget about the root, $$\binom{U}{V}$$ consists of all $$v$$ element subsets of a set of size $$u$$ — the set of leaves of $$U.$$ So, if we completely forget about the tree structure, the theorem simply says that for all positive integers $$u,v$$ and $$k,$$ there is a positive integer $$w$$ such that if the $$v$$-element subsets of a set of size $$w$$ are colored with $$k$$ colors, then there is a subset of size $$u$$ all of whose $$v$$-element subsets are colored the same way. This is exactly the statement of Ramsey's theorem! 
+
+The case where $$T$$ consists of three nodes — the root, one leaf, and one intermediate node — was also considered by Rado (1954), see also Corollary 6.8 of (Kechris-Pestov-Todorcevic 2005). A $$T$$-tree $$U$$ is an ordered tree all of whose leaves are at distance $$2$$ from the root. Again, the leaves of $$U$$ form a set $$L$$ of size $$u,$$ say. The intermediate nodes of $$U$$ impose some additional structure on this set, namely they determine a partition $$L$$ where each part corresponds to the children of some intermediate node and the parts are ordered according to the ordering of $$U.$$ Thus, the structure of $$U$$ can be described by the sequence $$u_1,\dots,u_k$$ of positive integers, where $$u_i$$ is the number of children of the $$i$$-th intermediate node. Note that $$u = u_1 + \cdots + u_k.$$ Suppose $$V$$ is similarly described by the sequence $$v_1,\dots,v_\ell,$$ and set $$v = v_1 + \cdots + v_\ell.$$ Forgetting about the tree structure, $$\binom{U}{V}$$ consists of all $$v$$-element subsets $$K$$ of the partitioned set $$L$$ such that the first $$v_1$$ elements of $$K$$ belong to the same part of $$L,$$ the next $$v_2$$ elements of $$K$$ belong to a later part of $$L,$$ and so on. This determines a corresponding ordered partition of $$K$$ into $$\ell$$ parts, where the $$j$$-th part has size $$v_j.$$ When $$k = \ell,$$ then the parts must match exactly and we recover some of the partition results for systems of sets that Rado considered in [bibcite key=Rado]. 
+
+Lionel Nguyen Van Thé (2009) has found a very clever way to talk about partitioned sets as above and even more general systems of nested partitions. Nguyen Van Thé's convexly ordered ultrametric spaces correspond to the special case of the theorem where $$T$$ has a root, one leaf, and a certain number $$n-1$$ of intermediate nodes. Recall that an ultrametric space is a metric space $$(X,d)$$ where the distance $$d$$ satisfies the ultrametric inequality $$d(x,z) \leq \max(d(x,y),d(y,z))$$ for all $$x,y,z \in X.$$ The balls of radius $$r$$ then form a partition of $$X$$ into a certain number of parts. If $$X$$ is moreover endowed with a linear order $${\lt}$$ where each ball is an interval, then $$(X,d,{\lt})$$ is a _convexly ordered ultrametric space_. 
+
+A finite convexly ordered ultrametric space $$(X,d,{\lt})$$ whose distance function only takes values in the set $$\set{0,1,\dots,n}$$ corresponds to a $$T$$-tree $$U$$ as follows. The $$i$$-th level of $$U$$ consists of all balls 
+^
+$$B_{n-i}(x) = \set{y \in X : d(x,y) \leq n-i};$$
+^
+ these are the nodes of $$U$$ that get mapped by the $$T$$-tree homomorphism to the $$i$$-th node of $$T,$$ where the root is numbered $$0$$ and the leaf is numbered $$n.$$ The edge relation on $$U$$ is given by the inclusion relation among these balls; so the node corresponding $$B_{n-i-1}(x)$$ is always a child of that which corresponds to $$B_{n-i}(x)$$ for $$i \in \set{1,\dots,n}.$$ Since balls of the same level are disjoint intervals of $$X,$$ this induces a lexicographic ordering of the $$T$$-tree $$U.$$ Since the balls of radius $$0$$ are singletons, there is an obvious bijection between $$X$$ and the leaves of $$U.$$ The distance $$d$$ can be read from the $$T$$-tree $$U$$ by figuring the level of the greatest common ancestor of two leaf nodes of $$U.$$ The correspondence just described also works backwards, from $$T$$-trees to finite convexly ordered ultrametric spaces with distances in $$\set{0,1,\dots,n}.$$ Our theorem for $$T$$-trees thus corresponds exactly to Nguyen Van Thé's partition theorem for this class of ultrametric spaces. Note that Nguyen Van Thé also considered more general sets of distances (including infinite sets) and he proves that these also have the Ramsey property; the infinite case is not a special case of our theorem but finite sets of distances behave exactly like $$\set{0,1,\dots,n}$$ for some $$n.$$ 
+
+We have not found existing results that correspond to cases where $$T$$ is a branching rooted tree. It would be interesting to find more, but there is actually a more pressing matter that stems from our unusual proof. Our proof goes through a wonderful result of Kechris, Pestov, and Todorcevic (2005) that ties structural Ramsey results with topological dynamics and model theory. Basically, we computed the automorphism groups of countably categorical linear orders with additional structure and found that these groups have the right dynamical properties to apply the results of Kechris, Pestov and Todorcevic. In particular, _there is no known combinatorial proof of our partition theorem for $$T$$-trees_! It would be very interesting to find one, especially one that would relate our result to some classical results in Ramsey theory... 
+

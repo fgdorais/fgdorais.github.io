@@ -1,0 +1,17 @@
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    <h3>{{ site.description | default: site.github.project_tagline }}</h2>
+    <h5>
+      <nav class="htabs">
+	{% for item in site.page_nav %}
+	{% if item.section == page.section %}
+	<a class="active" href="{{ item.url }}">{{ item.title | downcase }}</a>
+	{% else %}
+	<a href="{{ item.url }}">{{ item.title | downcase }}</a>
+	{% endif %}
+	{% endfor %}
+      </nav>
+    </h3>
+  </header>
+</div>

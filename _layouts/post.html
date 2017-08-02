@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+{{ content }}
+{% if page.bibliography %}
+<h4>References</h4>
+<ol id="bibliography">
+  {% for ref in page.bibliography %}
+  <li>
+    {{ ref.authors | join: ", " }}, {{ ref.year }}:
+    <cite>{{ ref.title }}</cite>, {{ ref.cite | smartify }}.
+    <ul class="hlist">
+      {% if ref.mr %}
+      <li>mr: <a href="https://www.ams.org/mathscinet-getitem?mr={{ ref.mr }}">{{ ref.mr }}</a></li>
+      {% endif %}
+      {% if ref.zbl %}
+      <li>zbl: <a href="https://zbmath.org/?q=an:{{ ref.zbl }}">{{ ref.zbl }}</a></li>
+      {% endif %}
+      {% if ref.arxiv %}
+      <li>arxiv: <a href="https://arxiv.org/abs/{{ ref.arxiv }}">{{ ref.arxiv }}</a></li>
+      {% endif %}
+      {% if ref.isbn %}
+      <li>isbn: <a href="https://books.google.com/books?isbn={{ ref.isbn }}">{{ ref.isbn }}</a></li>
+      {% endif %}
+      {% if ref.doi %}
+      <li>doi: <a href="https://doi.org/{{ ref.doi | uri_escape }}">{{ ref.doi }}</a></li>
+      {% elsif ref.url %}
+      <li><a href="http://{{ ref.url | uri_escape }}">{{ ref.url }}</a></li>
+      {% endif %}
+    </ul>
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}

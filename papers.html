@@ -1,0 +1,34 @@
+---
+layout: default
+title: Papers
+permalink: /papers/
+---
+<h2>Papers</h2>
+<ul class="listing">
+  {% for p in site.papers reversed %}
+  <li>
+    <cite>{{ p.title | escape }}</cite>
+    {% assign others = p.authors | where_exp: "name", "name != 'F. G. Dorais'" %}
+    {% if others[0] %}
+    (With&nbsp;{% for name in others %}{% if forloop.first %}{% elsif forloop.last %}&nbsp;and {% else %}, {% endif %}{{ name | replace: " ", "&nbsp;"}}{% endfor %})
+    {% endif %}
+    <ul class="hlist">
+      <li><a href="{{ p.url }}">abstract</a></li>
+      {% if p.arxiv %}<li>arxiv:&nbsp;<a href="https://arxiv.org/abs/{{ p.arxiv }}">{{ p.arxiv }}</a></li>{% endif %}
+      {% if p.cite %}<li><a href="{% if p.doi %}https://doi.org/{{ p.doi }}{%elsif p.ref %}https://{{ p.ref }}{% endif %}">{{ p.cite | smartify}}</a></li>{% endif %}
+      {% comment %}
+      {% if p.doi %}<li>doi:&nbsp;<a href="https://doi.org/{{ p.doi }}">{{ p.doi }}</a></li>
+    {% elsif p.ref %}
+      <li>url:&nbsp;<a href="https://{{ p.ref }}">{{ p.ref }}</a></li>
+      {% endif %}
+      {% endcomment %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
+<h4>Coauthors</h4>
+<ul class="listing">
+  {% for a in site.data.coauthors %}
+  <li><a{% if a.url %} href="{{ a.url }}"{% endif %} target="_blank">{{ a.name }}</a></li>
+  {% endfor %}
+</ul>

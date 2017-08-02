@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h3><cite>{{ page.title }}</cite></h3>
+<h5>By&nbsp;{% for name in page.authors %}{% if forloop.first %}{% elsif forloop.last %} and&nbsp;{% else %}, {% endif %}{{ name | replace: " ", "&nbsp;" }}{% endfor %}</h5>
+{% if page.cite %}
+<h6>{{ page.cite | smartify }}</h6>
+{% endif %}
+<ul id="abstract" class="hlist">
+  {% if page.mr %}
+  <li>mr:&nbsp;<a href="https://www.ams.org/mathscinet-getitem?mr={{ page.mr }}">{{ page.mr }}</a></li>
+  {% endif %}
+  {% if page.zbl %}
+  <li>zbl:&nbsp;<a href="https://zbmath.org/?q=an:{{ page.zbl }}">{{ page.zbl }}</a></li>
+  {% endif %}
+  {% if page.arxiv %}
+  <li>arxiv:&nbsp;<a href="https://arxiv.org/abs/{{ page.arxiv }}">{{ page.arxiv }}</a></li>
+  {% endif %}
+  {% if page.doi %}
+  <li>doi:&nbsp;<a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></li>
+  {% elsif page.ref %}
+  <li>url:&nbsp;<a href="https://{{ page.ref | uri_escape }}">{{ page.ref }}</a></li>
+  {% endif %}
+</ul>
+<hr />
+<div id="abstract">
+  {{ content }}
+</div>
+

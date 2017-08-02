@@ -1,0 +1,16 @@
+---
+title: Posts
+layout: list
+mode: date
+section: archives
+permalink: /archives/date.html
+---
+{% assign posts = site.archives | sort: 'date' %}
+<ul class="listing">
+  {% for p in posts reversed %}
+  <li>
+    {{ p.date | date: "%Y-%m-%d" }}:
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>  
+  </li>
+  {% endfor %}
+</ul>

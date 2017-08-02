@@ -1,0 +1,15 @@
+---
+layout: default
+section: news
+title: News
+permalink: /news/
+---
+<h2>News</h2>
+<ul class="listing">
+  {% for p in site.posts %}
+  <li>
+    {{ p.date | date: "%Y-%m-%d" }}:
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

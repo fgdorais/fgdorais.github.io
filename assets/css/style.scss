@@ -1,0 +1,87 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+  color: #070;
+}
+
+cite {
+  font-style: italic;
+}
+
+header { 
+  color: #fff; 
+  h1, h2, h3, h4, h5, h6 { 
+    color: inherit;
+    font-weight: bold;
+  } 
+  h3 {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+
+/*
+nav.header_links {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  a {
+    color: inherit;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+    &::before { content: '\00a0 ' }
+  }
+  a.active {
+    border-width: 1px 0px 0px 1px;
+  }
+}
+*/
+
+nav.htabs {
+  margin: 0;
+  padding: 0;
+  a, p {
+    color: inherit;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+  }
+  a { 
+    border-width: 0px 0px 1px 1px;
+    &::before { content: '\00a0 ' }
+  }
+  a.active {
+    border-width: 1px 0px 0px 1px;
+  }
+  a:hover { text-decoration: none }
+  p {
+    border-width: 1px 0px 0px 0px;
+  }
+}
+
+ul.hlist {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    &::before { content: '\00a0 ' }
+  }
+}
+
+ul.listing {
+  list-style-type: circle;
+  a { color: inherit }
+}

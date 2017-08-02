@@ -1,0 +1,43 @@
+---
+title: Towsner's stable forcing
+date: 2013-02-08 15:09:36
+permalink: /archives/1203/
+published: true
+categories: [independence-proofs, reverse-math]
+tags: [Forcing, Second-Order Arithmetic]
+people: [Henry Towsner, Ted Slaman]
+bibliography:
+  - authors: [T. A. Slaman] 
+    year: 2004
+    title: "$\\Sigma_n$-bounding and $\\Delta_n$-induction" 
+    cite: "Proc. Amer. Math. Soc. 132, no. 8, 2449–2456"
+    doi: "10.1090/S0002-9939-04-07294-6"
+    mr: "2052424"
+    zbl: "1053.03034"
+  - authors: [H. Towsner] 
+    year: 2015
+    title: "On maximum conservative extensions"
+    cite: "Computability 4, no. 1, 57-68"
+    arxiv: "1302.1488"
+    doi: "10.3233/COM-150033"
+    mr: "3373217"
+    zbl: "1326.03072"
+---
+It is well known that a model $$\newcommand{\MN}{\mathfrak{N}}\MN$$ of $$\newcommand{\RCA}[1]{\mathsf{RCA}_{#1}}\RCA0$$ satisfies $$\Sigma^0_n$$-induction ($$\newcommand{\Ind}[1]{\mathsf{I}{#1}}\Ind{\Sigma^0_n}$$) if and only if it satisfies bounded $$\Sigma^0_n$$-comprehension: if $$\phi(x)$$ is a $$\Sigma^0_n$$-formula (with parameters) then the set $$\set{x \lt b: \phi(x)}$$ exists for every number $$b$$ in $$\MN$$. Thus, it follows that $$\Pi^0_n$$-induction also holds and indeed induction holds for all boolean combinations of $$\Sigma^0_n$$ formulas. However, $$\Ind{\Sigma^0_n}$$ offers no control over sets of higher complexity than that. In particular, $$\Delta^0_{n+1}$$-induction may fail very badly in a model of $$\Ind{\Sigma^0_n}$$. Indeed, by a result of Slaman (2004) $$\Delta^0_{n+1}$$-induction is equivalent to $$\Sigma^0_{n+1}$$-bounding ($$\newcommand{\Bnd}[1]{\mathsf{B}{#1}}\Bnd{\Sigma^0_{n+1}}$$) and it is known that we have a strict hierarchy: 
+^
+$$\Ind{\Sigma^0_1} \quad\WHEN\quad \Bnd{\Sigma^0_2} \quad\WHEN\quad \Ind{\Sigma^0_2} \quad\WHEN\quad \Bnd{\Sigma^0_3} \quad\WHEN \cdots$$
+^
+ The actual size of the gaps between $$\Ind{\Sigma^0_n}$$ and $$\Bnd{\Sigma^0_{n+1}}$$ has recently been quantified by Henry Towsner, who included a beautiful forcing argument in his paper (Towsner 2015) that shows that $$\Ind{\Sigma^0_n}$$ gives absolutely no control whatsoever on $$\Delta^0_{n+1}$$-definable sets. 
+
+**Theorem (Towsner 2015).** _If $$\MN$$ is a model of $$\RCA0$$ and $$X$$ is any external set of numbers in $$\MN$$ then there is an $$\omega$$-extension $$\MN'$$ of $$\MN$$ that satisfies $$\RCA0$$ and such that $$X$$ is $$\Delta^0_2$$-definable in $$\MN'$$._
+
+**Theorem (Towsner 2015).** _If $$\MN$$ is a model of $$\RCA0+\Ind{\Sigma^0_n}$$ and $$X$$ is any external set of numbers in $$\MN$$ then there is an $$\omega$$-extension $$\MN'$$ of $$\MN$$ that satisfies $$\RCA0+\Ind{\Sigma^0_n}$$ and such that $$X$$ is $$\Delta^0_{n+1}$$-definable in $$\MN'$$._
+
+I will only outline the proof of the first result. The Limit Lemma gives a very combinatorial way to understand $$\Delta^0_2$$-definable sets over $$\MN$$. Namely, the external set $$X$$ is $$\Delta^0_2$$-definable in $$\MN$$ exactly when there is a function $$c:\N^2\to\set{0,1}$$ in $$\MN$$ such that $$\lim_{y\to\infty} c(x,y)$$ exists for every $$x$$ and $$x \in X \IFF \lim_{y\to\infty} c(x,y) = 1$$. In general, a function $$f:\N^2\to\N$$ such that $$\lim_{y\to\infty} f(x,y)$$ exists for every $$x$$ is called _stable_. Towsner's strategy is to generically add a stable coloring $$c:\N^2\to\set{0,1}$$ such that $$x \in X \IFF \lim_{y\to\infty} c(x,y) = 1$$ and show that the forcing to add such a coloring preserves $$\RCA0$$. 
+
+Towsner doesn't name this forcing, so I will take the liberty of coining a name for it — _Towsner's Stable Forcing_ and I will denote it $$\newcommand{\ST}{\mathbb{ST}}\ST_X$$ — at least for the purpose of this post. The forcing can be described as follows. Conditions of $$\ST_X$$ are pairs $$p = (c_p,V_p)$$ where $$c_p$$ is (a code for) an $$\MN$$-finite partial function $$\N^2\to\set{0,1}$$ and $$V_p$$ is a truly finite set of _stability promises_ (discussed shortly); and the ordering of conditions is $$q \leq p$$ iff $$c_q$$ extends $$c_p$$ and $$V_p \subseteq V_q$$. The _stability promises_ consist of pairs $$(x,y) \in \N^2$$ that promise that the values of the generic coloring with first coordinate $$x$$ stabilize from $$y$$ on to the correct value predicted by $$X$$. More precisely, if $$(x,y) \in V_p$$ then $$(x,y) \in \newcommand{\dom}{\operatorname{dom}}\dom(c_p)$$, $$c_p(x,y) = 1 \IFF x \in X$$, and $$c_p(x,y') = c_p(x,y)$$ for all $$y' \gt y$$ such that $$(x,y') \in \dom(c_p)$$. Since $$X$$ is not in $$\MN$$ and $$\MN$$ usually has no way of distinguishing truly finite sets from others, the forcing $$\ST_X$$ is not definable in $$\MN$$ though all conditions are in $$\MN$$. It is therefore hopeless try to internalize this forcing but we will see that if $$G$$ is a (sufficiently) generic filter over $$\ST_X$$, then $$c(x,y) = i \IFF (\exists p \in G)(c_p(x,y) = i)$$ defines a total coloring $$c:\N^2\to\set{0,1}$$ and that $$\MN' = \MN[c]$$ is as required for the theorem. 
+
+The main difficulty is in showing that $$\MN[c]$$ still satisfies $$\Ind{\Sigma^0_1}$$. The trick is that if an extension $$q \leq p$$ forces a bounded statement, then only an $$\MN$$-finite amount of the information of the information that $$q$$ knows about $$c$$ is actually used to witness that fact. Though $$V_q$$ contains an infinite amount of promised information, we can trim down $$V_q$$ and throw all the information actually used into $$c_q$$ to get a new condition $$q' \leq p$$ that still forces the bounded statement and has no more stability promises than $$p$$ had. Thus, if $$p \Vdash \exists v\phi(v)$$ where $$\phi(v)$$ is bounded, then there are an extension $$q \leq p$$ with $$V_q = V_p$$ and $$x \in \N$$ such that $$q \Vdash \phi(x)$$. Using this, given a condition $$p$$ and a $$\Sigma^0_1$$-formula $$\phi(v)$$ we can work in $$\MN$$ to find an extension $$q \leq p$$ with $$V_q = V_p$$ such that $$p \Vdash \forall v\lnot\phi(v) \quad\text{or}\quad p \Vdash \phi(x) \land (\forall v \lt x)\lnot\phi(v) \text{ for some \(x\).}$$ Since $$V_q = V_p$$, we know that $$q$$ actual condition in $$\ST_X$$, provided that $$p$$ is one in the first place, without worrying about $$X$$, true finiteness, or anything that is not within reach of $$\MN$$. 
+
+Of course, this forcing construction is only a small part of Towsner's excellent paper, I highly recommend reading it! 
+

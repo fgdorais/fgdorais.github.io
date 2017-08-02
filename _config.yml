@@ -1,0 +1,65 @@
+title: Fran&ccedil;ois G. Dorais
+description: Research in Logic and Foundations of Mathematics
+
+collections:
+  archives:
+    output: true
+  papers:
+    layout: abstract
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: news
+      section: news
+      permalink: /news/:year-:month-:day-:title.html
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: abstract
+      section: papers
+      permalink: /papers/:title.html
+  - scope:
+      path: ""
+      type: archives
+    values:
+      section: archives
+      layout: post
+
+# Sorting modes
+sorting:
+  - name: category
+    url: /archives/category.html
+  - name: date
+    url: /archives/date.html
+  - name: title
+    url: /archives/title.html
+
+# Navigation
+page_nav:
+  - title: "Home"
+    section: home
+    url: /index.html
+  - title: "Papers"
+    section: papers
+    url: /papers/index.html
+  - title: "Posts"
+    section: archives
+    url: /archives/category.html
+  - title: "News"
+    section: news
+    url: /news/index.html
+  - title: "About"
+    section: about
+    url: /about.html
+  - title: "boolesrings.org"
+    url: https://boolesrings.org
+
+# Build Settings
+
+theme: jekyll-theme-slate
+markdown: kramdown

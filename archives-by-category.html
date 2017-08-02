@@ -1,0 +1,41 @@
+---
+title: Posts
+layout: list
+mode: category
+section: archives
+permalink: /archives/category.html
+topics:
+ - id: combinatorics
+   name: Combinatorics
+ - id: computability
+   name: Computability Theory
+ - id: independence-proofs
+   name: Forcing and Independence Proofs
+ - id: games
+   name: Mathematical Games
+ - id: mathematical-philosophy
+   name: Mathematical Philosophy
+ - id: model-theory
+   name: Model Theory
+ - id: proof-theory
+   name: Proof Theory
+ - id: reverse-math
+   name: Reverse Mathematics
+ - id: set-theory
+   name: Set Theory
+ - id: topology
+   name: Topology
+ - id: type-theory
+   name: Type Theory
+---
+{% for t in page.topics %}
+<h3>{{ t.name }}</h3>
+<ul class="listing">
+  {% assign posts = site.archives | where_exp: "post", "post.categories contains t.id" %}
+  {% for p in posts %}
+  <li>
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
