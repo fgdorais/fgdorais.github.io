@@ -34,7 +34,7 @@ $$\operatorname{\mathsf{unit}}(x) :\equiv\sum_{y:R} (x\cdot y =_R \mathsf{I}).$$
 ^
 Elements of type $$\operatorname{\mathsf{unit}}(x)$$ are pairs $$(y,p)$$, where $$y:R$$ and $$p: x \cdot y =_R \mathsf{I}$$. Because $$R$$ is a set and inverses are unique, there is always at most one such $$(y,p)$$, which means that $$\operatorname{\mathsf{unit}}(x)$$ is a proposition. Therefore, we can comprehend the set of units: 
 ^
-$$R^\times :\equiv\set{x:R \mid \operatorname{\mathsf{unit}}(x)\} :\equiv\sum_{x:R} \operatorname{\mathsf{unit}}(x).$$
+$$R^\times :\equiv\set{x:R \mid \operatorname{\mathsf{unit}}(x)} :\equiv\sum_{x:R} \operatorname{\mathsf{unit}}(x).$$
 ^
 (Subset comprehension is discussed in §3.5 of the book.) Technically, elements of $$R^\times$$ are triples $$(x,y,p)$$ where $$x,y:R$$ and $$p:(x \cdot y =_R \mathsf{I})$$. Thus $$R^\times$$ is not merely a subset of $$R$$ but each element of $$R^\times$$ comes equipped with a justification for being in $$R^\times$$. Since for each $$x:R$$ there is at most one $$(x,y,p):R^\times$$, we can identify the two without much confusion but the extra coordinates are actually helpful for proving things about $$R^\times$$.
 
@@ -84,7 +84,7 @@ To conclude the argument, it suffices to verify that $${\small\fbox{\(\phantom{b
 
 **Version 2.** Let's outline the verification that $$R^\times$$ is a group under multiplication. By virtue of univalence, there are multiple ways to look at $$R^\times$$. Instead of viewing it as a subset of $$R$$ we can also view it as a subset of $$R \times R$$, namely 
 ^
-$$R^\times = \set{(x,y):R \times R \mid x \cdot y =_R \mathsf{I}\} = \sum_{x,y:R} (x \cdot y =_R \mathsf{I}).$$
+$$R^\times = \set{(x,y):R \times R \mid x \cdot y =_R \mathsf{I}} = \sum_{x,y:R} (x \cdot y =_R \mathsf{I}).$$
 ^
  Thus $$(x,y) \in_{R \times R} R^\times$$ denotes the proposition $$x \cdot y =_R \mathsf{I}.$$ It turns out that this view of $$R^\times$$ will be easier to work with. To begin, we need to isolate the group operations:
 
