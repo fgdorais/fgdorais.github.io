@@ -1,5 +1,6 @@
 {% assign comments = site.comments | where: "subject", page.slug | where: "published", "true" %}
 {% if comments[0] %}
+<hr />
 <h4>Comments</h4>
 <ul style="list-style: none; padding: 0;">
 {% for c in comments %}
