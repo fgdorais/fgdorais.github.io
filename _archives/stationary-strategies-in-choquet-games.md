@@ -6,28 +6,7 @@ published: true
 categories: [topology, games]
 tags: [Choquet game, MF spaces]
 people: [Carl Mummert, Frank Stephan]
-bibliography:
-  - authors: [F. G. Dorais, C. Mummert] 
-    title: "Stationary and convergent strategies in Choquet games"
-    year: 2010
-    cite: "Fund. Math. 209, 59-79"
-    mr: "2652592"
-    zbl: "1200.91054"
-    doi: "10.4064/fm209-1-5"
-  - authors: [C. Mummert] 
-    title: "Reverse mathematics of MF spaces" 
-    year: 2006
-    cite: "J. Math. Log. 6, 203-232"
-    mr: "2317427"
-    zbl: "1122.03005"
-    doi: "10.1142/S0219061306000578"
-  - authors: [C. Mummert, F. Stephan] 
-    title: "Topological aspects of poset spaces" 
-    year: 2010
-    cite: "Michigan Math. J. 59, 3-24"
-    mr: "2654139"
-    zbl: "1196.54046"
-    doi: "10.1307/mmj/1272376025"
+bibliography: [DorMum10e, Mum06c, MumSte10o]
 ---
 The (_strong_) _Choquet game_ on a topological space $$X$$ is played as follows. There are two players, Empty and Nonempty, who alternate turns for infinitely many rounds. On round $$i$$, Empty moves first, choosing a point $$x_i$$ and an open neighborhood $$U_i$$ of $$x_i$$ and, if $$i \geq 1$$, such that $$U_i \subseteq V_{i-1}$$ (the open set that Nonempty played on the previous round). Then, Nonempty responds with an open neighborhood $$V_i$$ of the same point $$x_i$$ such that $$V_i \subseteq U_i$$. After all the rounds have been played, we obtain a descending sequence of open sets 
 ^

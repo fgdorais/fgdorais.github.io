@@ -6,14 +6,7 @@ published: true
 categories: [mathematical-philosophy, set-theory]
 tags: [Axiom of Choice, Excluded Middle, Intuitionistic Logic]
 people: [Per Martin-Löf, Peter Aczel, Radu Diaconescu]
-bibliography:
- - authors: [R. Diaconescu]
-   year: 1975
-   title: "Axiom of choice and complementation"
-   cite: "Proc. Amer. Math. Soc. 51, 176–178"
-   doi: "10.1090/S0002-9939-1975-0373893-X"
-   mr: "0373893"
-   zbl: "0317.02077"
+bibliography: [Dia75r]
 ---
 Radu Diaconescu (1975) showed that the Axiom of Choice implies the Principle of Excluded Middle. More specifically, he showed that every topos that satisfies (a very mild form of) the Axiom of Choice is Boolean. Diaconescu's argument applies in many other contexts too. In this post, I will present a variant of that argument. I will keep the context of the argument deliberately ambiguous to demonstrate its broad applicability. 
 

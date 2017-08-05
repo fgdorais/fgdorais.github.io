@@ -6,7 +6,8 @@ published: true
 categories: [topology, set-theory]
 tags: [Cardinal characteristics, Galois-Tukey connections, MathOverflow, Metric spaces]
 people: [Andreas Blass, Frank Tall, Peter Vojtáš]
-bibliography:
+bibliography: [Bla10m, Voj93o]
+bib:
   - authors: [A. Blass]
     title: "Combinatorial cardinal characteristics of the continuum"
     year: 2010

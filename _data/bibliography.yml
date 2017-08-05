@@ -1,0 +1,421 @@
+Abr87m:
+  authors: [U. Abraham]
+  cite: Order 4, no. 2, 107--125
+  doi: 10.1007/BF00337691
+  mr: 0916489
+  title: A note on Dilworth's theorem in the infinite case
+  year: 1987
+  zbl: '0629.06002'
+Aha84u:
+  authors: [R. Aharoni]
+  cite: J. London Math. Soc. (2) 29, no. 1, 1--12
+  doi: 10.1112/jlms/s2-29.1.1
+  mr: 0734985
+  title: König's duality theorem for infinite bipartite graphs
+  year: 1984
+  zbl: '0505.05049'
+BarJud95v:
+  authors: [T. Bartoszyński, H. Judah]
+  cite: A K Peters, Ltd. (Wellesley, MA)
+  isbn: '9781568810447'
+  mr: '1350295'
+  title: 'Set Theory: On the structure of the real line'
+  year: 1995
+  zbl: '0834.04001'
+Bla10m:
+  authors: [A. Blass]
+  cite: Handbook of set theory, Vols. 1, 2, 3, Springer, Dordrecht, 395--489
+  doi: 10.1007/978-1-4020-5764-9_7
+  mr: '2768685'
+  title: Combinatorial cardinal characteristics of the continuum
+  year: 2010
+  zbl: '1198.03058'
+Bla81l:
+  authors: [A. Blass]
+  cite: Proc. Amer. Math. Soc. 82, no. 2, 271--277
+  doi: 10.2307/2043323
+  mr: '609665'
+  title: A partition theorem for perfect sets
+  year: 1981
+  zbl: '0472.03038'
+Bro23v:
+  authors: [L. E. J. Brouwer]
+  cite: Math. Ann. 97, no. 1, 60--75
+  doi: 10.1007/BF01447860
+  mr: '1512354'
+  title: Über Definitionsbereiche von Funktionen
+  year: 1923
+Can95b:
+  authors: [G. Cantor]
+  cite: Math. Ann. 49, no. 2, 207--246
+  doi: 10.1007/BF01444205
+  mr: '1510964'
+  title: Beiträge zur Begründung der transfiniten Mengenlehre (Zweiter Artikel)
+  year: 1895
+  zbl: 28.0061.08
+Can97j:
+  authors: [G. Cantor]
+  cite: Math. Ann. 46, no. 4, 481--512
+  doi: 10.1007/BF02124929
+  title: Beiträge zur Begründung der transfiniten Mengenlehre (Erster Artikel)
+  year: 1897
+  zbl: 26.0081.01
+CenHin08r:
+  authors: [D. Cenzer, P. G. Hinman]
+  cite: Arch. Math. Logic 46, no. 7--8, 629--647
+  doi: 10.1007/s00153-007-0058-y
+  mr: '2395562'
+  title: Degrees of difficulty of generalized r.e. separating classes
+  year: 2008
+  zbl: '1151.03020'
+ChuRobSeyTho06r:
+  authors: [M. Chudnovsky, N. Robertson, P. Seymour, R. Thomas]
+  cite: Ann. of Math. (2) 164, no. 1, 51--229
+  doi: 10.4007/annals.2006.164.51
+  mr: '2233847'
+  title: The strong perfect graph theorem
+  year: 2006
+  zbl: '1112.05042'
+CorDor12n:
+  arxiv: '1111.1367'
+  authors: [J. R. Corduan, F. G. Dorais]
+  cite: Notre Dame J. Formal Logic 53, no. 3, 373--395
+  doi: 10.1215/00294527-1716784
+  mr: '2981014'
+  title: On the indecomposability of $\omega^n$
+  year: 2012
+  zbl: '1260.03017'
+Dia75r:
+  authors: [R. Diaconescu]
+  cite: Proc. Amer. Math. Soc. 51, 176--178
+  doi: 10.1090/S0002-9939-1975-0373893-X
+  mr: 0373893
+  title: Axiom of choice and complementation
+  year: 1975
+  zbl: '0317.02077'
+Dor11w:
+  arxiv: '1207.6434'
+  authors: [F. G. Dorais]
+  cite: Notre Dame J. Form. Log. 55, no. 1, 25--39
+  doi: 10.1215/00294527-2377860
+  mr: '3161410'
+  title: Classical consequences of continuous choice principles from intuitionistic
+    analysis
+  year: 2011
+  zbl: '1331.03013'
+Dor13o:
+  arxiv: '1110.6563'
+  authors: [F. G. Dorais]
+  cite: Canad. Math. Bull. 56, 317--325
+  doi: 10.4153/CMB-2011-192-8
+  mr: '3043059'
+  title: A note on conjectures of F. Galvin and R. Rado
+  year: 2013
+  zbl: '1315.03077'
+DorFil05p:
+  authors: [F. G. Dorais, R. Filipów]
+  cite: Real Anal. Exchange 31, no. 1, 133--142
+  mr: '2218194'
+  title: Algebraic sums of sets in Marczewski-Burstin algebras
+  url: projecteuclid.org/euclid.rae/1149516801
+  year: 2005
+  zbl: '1106.28001'
+DorFilNat13u:
+  authors: [F. G. Dorais, R. Filipów, T. Natkaniec]
+  cite: Central European Journal of Mathematics 11, no. 3, 487--508
+  doi: 10.2478/s11533-012-0144-1
+  mr: '3016317'
+  title: On some properties of Hamel bases and their applications to Marczewski measurable
+    functions
+  year: 2013
+  zbl: '1259.28005'
+DorGubMcDRiv13c:
+  arxiv: '1202.4092'
+  authors: [F. G. Dorais, S. Gubkin, D. McDonald, M. Rivera]
+  cite: Order 30, 415--426
+  doi: 10.1007/s11083-012-9252-6
+  mr: '3063195'
+  title: Automorphism groups of countably categorical linear orders are extremely
+    amenable
+  year: 2013
+  zbl: '1279.06002'
+DorMum10e:
+  authors: [F. G. Dorais, C. Mummert]
+  cite: Fund. Math. 209, 59--79
+  doi: 10.4064/fm209-1-5
+  mr: '2652592'
+  title: Stationary and convergent strategies in Choquet games
+  year: 2010
+  zbl: '1200.91054'
+DowHirLemSol01m:
+  authors: [R. Downey, D. R. Hirschfeldt, S. Lempp, R. Solomon]
+  cite: J. Symbolic Logic 66, no. 3, 1371--1381
+  doi: 10.2307/2695113
+  mr: '1856748'
+  title: A $\Delta^0_2$ set with no infinite low subset in either it or its complement
+  year: 2001
+  zbl: '0990.03046'
+Gal68c:
+  authors: [F. Galvin]
+  cite: Notices Amer. Math. Soc. 15, 660
+  title: Partition theorems for the real line
+  year: 1968
+GitHam10p:
+  arxiv: '1104.4450'
+  authors: [V. Gitman, J. D. Hamkins]
+  cite: ' Notre Dame Journal of Formal Logic 51, 475--484'
+  doi: 10.1215/00294527-2010-030
+  mr: '2741838'
+  title: A natural model of the multiverse axioms
+  year: 2010
+  zbl: '1214.03035'
+Ham12b:
+  arxiv: '1108.4223'
+  authors: [J. D. Hamkins]
+  cite: Review of Symbolic Logic 5, 416--449
+  doi: 10.1017/S1755020311000359
+  mr: '2970696'
+  title: The set-theoretic multiverse
+  year: 2012
+  zbl: '1260.03103'
+Hei67y:
+  authors: [J. van Heijenoort]
+  cite: Harvard University Press (Cambridge, Mass.)
+  isbn: '9780674324497'
+  mr: 0209111
+  title: 'From Frege to Godel: A source book in mathematical logic, 1879-1931'
+  year: 1967
+  zbl: '0183.00601'
+HirMum10k:
+  arxiv: '1010.5165'
+  authors: [J. Hirst, C. Mummert]
+  cite: Notre Dame J. Form. Log. 52, no. 2, 149--162
+  doi: 10.1215/00294527-1306163
+  mr: '2794648'
+  title: Reverse mathematics and uniformity in proofs without excluded middle
+  year: 2010
+  zbl: '1225.03083'
+HirSho07y:
+  authors: [D. R. Hirschfeldt, R. A. Shore]
+  cite: J. Symbolic Logic 72, no. 1, 171--206
+  doi: 10.2178/jsl/1174668391
+  mr: '2298478'
+  title: Combinatorial principles weaker than Ramsey's theorem for pairs
+  year: 2007
+  zbl: '1118.03055'
+Joc89f:
+  authors: [C. G. Jockusch Jr.]
+  cite: Logic, Methodology and Philosophy of Science VIII, Studies in Logic and the
+    Foundations of Mathematics 126, 191--201
+  doi: 10.1016/S0049-237X(08)70045-4
+  isbn: '9780444705204'
+  mr: '1034562'
+  title: Degrees of functions with no fixed points
+  year: 1989
+  zbl: '0694.03027'
+KecPesTod05h:
+  arxiv: math/0305241
+  authors: [A. S. Kechris, V. G. Pestov, S. Todorcevic]
+  cite: Geom. Funct. Anal. 15, no. 1, 106--189
+  doi: 10.1007/s00039-005-0503-1
+  mr: '2140630'
+  title: Fraïssé limits, Ramsey theory, and topological dynamics
+  year: 2005
+  zbl: '1084.54014'
+Law05v:
+  authors: [F. W. Lawvere]
+  cite: Repr. Theory Appl. Categ. No. 11, 1--35
+  mr: '2177727'
+  title: An elementary theory of the category of sets (long version) with commentary
+  url: http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html
+  year: 2005
+Law64a:
+  authors: [F. W. Lawvere]
+  cite: Proc. Nat. Acad. Sci. U.S.A. 52, no. 6, 1506--1511
+  doi: 10.1073/pnas.52.6.1506
+  mr: 0172807
+  title: An elementary theory of the category of sets
+  year: 1964
+  zbl: '0141.00603'
+Lei14g:
+  arxiv: '1212.6543'
+  authors: [T. Leinster]
+  cite: Amer. Math. Monthly 121, no. 5, 403--415
+  doi: 10.4169/amer.math.monthly.121.05.403
+  mr: '3193723'
+  title: Rethinking set theory
+  year: 2014
+  zbl: '1345.03100'
+Lov72d:
+  authors: [L. Lovász]
+  cite: J. Combinatorial Theory Ser. B 13, 95--98
+  doi: 10.1016/0095-8956(72)90045-7
+  mr: 0309780
+  title: A characterization of perfect graphs
+  year: 1972
+  zbl: '0241.05107'
+Lov72i:
+  authors: [L. Lovász]
+  cite: Discrete Math. 2, no. 3, 253--267
+  doi: 10.1016/0012-365X(72)90006-4
+  mr: 0302480
+  title: Normal hypergraphs and the perfect graph conjecture
+  year: 1972
+  zbl: '0239.05111'
+Moo06u:
+  authors: [J. T. Moore]
+  cite: Ann. of Math. (2) 163, no. 2, 669--688
+  doi: 10.4007/annals.2006.163.669
+  mr: '2199228'
+  title: A five element basis for the uncountable linear orders
+  year: 2006
+  zbl: '1143.03026'
+Mum06c:
+  authors: [C. Mummert]
+  cite: J. Math. Log. 6, 203--232
+  doi: 10.1142/S0219061306000578
+  mr: '2317427'
+  title: Reverse mathematics of MF spaces
+  year: 2006
+  zbl: '1122.03005'
+MumSte10o:
+  authors: [C. Mummert, F. Stephan]
+  cite: Michigan Math. J. 59, 3--24
+  doi: 10.1307/mmj/1272376025
+  mr: '2654139'
+  title: Topological aspects of poset spaces
+  year: 2010
+  zbl: '1196.54046'
+Myc64n:
+  authors: [J. Mycielski]
+  cite: Fund. Math. 55, 139--147
+  mr: '0173645'
+  title: Independent sets in topological algebras
+  url: matwbn.icm.edu.pl/ksiazki/fm/fm55/fm55112.pdf
+  year: 1964
+  zbl: '0124.01301'
+Nee11m:
+  authors: [I. Neeman]
+  cite: J. Symbolic Logic 76, no. 2, 561--574
+  doi: 10.2178/jsl/1305810764
+  mr: '2830416'
+  title: Necessary use of $\Sigma^1_1$ induction in a reversal
+  year: 2011
+  zbl: '1218.03005'
+Oos90m:
+  authors: [J. van Oosten]
+  cite: J. Symbolic Logic 55, no. 2, 805--821
+  doi: 10.2307/2274666
+  mr: '1056390'
+  title: Lifschitz' realizability
+  year: 1990
+  zbl: '0704.03040'
+Per63n:
+  authors: [M. A. Perles]
+  cite: Israel J. Math. 1, 108--109
+  doi: 10.1007/BF02759806
+  mr: 0168497
+  title: On Dilworth's theorem in the infinite case
+  year: 1963
+  zbl: '0115.01703'
+Rad54s:
+  authors: [R. Rado]
+  cite: J. London Math. Soc. 29, 71--83
+  doi: 10.1112/jlms/s1-29.1.71
+  mr: '0065616'
+  title: Direct decomposition of partitions
+  year: 1954
+  zbl: '0055.04903'
+Ram30e:
+  authors: [F. P. Ramsey]
+  cite: Proc. London Math. Soc. (2) 30, 264--286
+  doi: 10.1112/plms/s2-30.1.264
+  mr: '1576401'
+  title: On a problem of formal logic
+  year: 1930
+  zbl: 55.0032.04
+Sla04n:
+  authors: [T. A. Slaman]
+  cite: Proc. Amer. Math. Soc. 132, no. 8, 2449--2456
+  doi: 10.1090/S0002-9939-04-07294-6
+  mr: '2052424'
+  title: $\Sigma_n$-bounding and $\Delta_n$-induction
+  year: 2004
+  zbl: '1053.03034'
+Tay78b:
+  authors: [A. Taylor]
+  cite: Fund. Math. 99, no. 1, 51--59
+  mr: 0465873
+  title: Partitions of pairs of reals
+  url: matwbn.icm.edu.pl/ksiazki/fm/fm99/fm9917.pdf
+  year: 1978
+  zbl: '0377.04010'
+The09o:
+  arxiv: '0710.2347'
+  authors: [L. Nguyen Van Thé]
+  cite: European J. Combin. 30, no. 4, 934--945
+  doi: 10.1016/j.ejc.2008.07.007
+  mr: '2504653'
+  title: Ramsey degrees of finite ultrametric spaces, ultrametric Urysohn spaces and
+    dynamics of their isometry groups
+  year: 2009
+  zbl: '1171.05436'
+Tod11q:
+  authors: [S. Todorcevic]
+  cite: Bull. Symbolic Logic 17, no. 1, 1--72
+  doi: 10.2178/bsl/1294186662
+  mr: '2760116'
+  title: Combinatorial dichotomies in set theory
+  year: 2011
+  zbl: '1230.03075'
+Tod83b:
+  authors: [S. Todorcevic]
+  cite: J. London Math. Soc. (2) 27, no. 1, 1--8
+  doi: 10.1016/0012-365X(81)90208-9
+  mr: '0620672'
+  title: On a conjecture of R. Rado
+  year: 1983
+  zbl: '0463.06001'
+Tow15k:
+  arxiv: '1302.1488'
+  authors: [H. Towsner]
+  cite: Computability 4, no. 1, 57--68
+  doi: 10.3233/COM-150033
+  mr: '3373217'
+  title: On maximum conservative extensions
+  year: 2015
+  zbl: '1326.03072'
+Tro73r:
+  authors: [A. S. Troelstra]
+  cite: Lecture Notes in Mathematics 344, Springer--Verlag (Berlin)
+  doi: 10.1007/BFb0066739
+  isbn: '9783540064916'
+  mr: '0325352'
+  title: Metamathematical investigation of intuitionistic arithmetic and analysis
+  year: 1973
+  zbl: '0275.02025'
+Voj93o:
+  authors: [P. Vojáš]
+  cite: Set theory of the reals (Ramat Gan, 1991), Israel Math. Conf. Proc., 6, Bar--Ilan
+    Univ., Ramat Gan, 619--643
+  mr: '1234291'
+  title: Generalized Galois-Tukey-connections between explicit relations on classical
+    objects of real analysis
+  year: 1993
+  zbl: '0829.03027'
+Wag78p:
+  authors: [S. Wagon]
+  cite: Discrete Math. 22, no. 2, 183--189
+  doi: 10.1016/0012-365X(78)90123-1
+  mr: '0523302'
+  title: Infinite triangulated graphs
+  year: 1978
+  zbl: '0382.05047'
+Zer08o:
+  authors: [E. Zermelo]
+  cite: Math. Ann. 66, no. 2, 261--281
+  doi: 10.1007/BF01449999
+  title: Untersuchungen über die Grundlagen der Mengenlehre I
+  year: 1908
+  zbl: 39.0097.03
+

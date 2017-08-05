@@ -6,23 +6,7 @@ published: true
 categories: [mathematical-philosophy, set-theory]
 tags: [Set-Theoretic Multiverse]
 people: [Joel David Hamkins, Victoria Gitman]
-bibliography:
-  - authors: [V. Gitman, J. D. Hamkins] 
-    year: 2010
-    title: "A natural model of the multiverse axioms"
-    cite: " Notre Dame Journal of Formal Logic 51, 475–484"
-    arxiv: "1104.4450"
-    doi: "10.1215/00294527-2010-030"
-    mr: "2741838"
-    zbl: "1214.03035"
-  - authors: [J. D. Hamkins] 
-    year: 2012
-    title: "The set-theoretic multiverse"
-    cite: "Review of Symbolic Logic 5, 416–449"
-    arxiv: "1108.4223"
-    doi: "10.1017/S1755020311000359"
-    mr: "2970696"
-    zbl: "1260.03103"
+bibliography: [GitHam10p, Ham12b]
 ---
 In (Hamkins 2012), Joel David Hamkins proposed a set of axioms for the set-theoretic multiverse. Several of these axioms reflect the typical world many set theorists live in, namely that generic extensions, inner models and the like are all legitimate universes. Some set theorists prefer the universe perspective where one such universe is singled out as more legitimate than others and other set theorists prefer to think that any universe is as legitimate as any other. Hamkins is of the latter view and, in many ways, his view is even radically opposed to the universe perspective. Indeed, some of Hamkins's axioms take the form of "mirages" that gradually eliminate the possibility of singling out a preferred universe. These can be formulated as follows.[^1]
 

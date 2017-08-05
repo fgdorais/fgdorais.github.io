@@ -6,22 +6,7 @@ published: true
 categories: [independence-proofs, reverse-math]
 tags: [Forcing, Second-Order Arithmetic]
 people: [Henry Towsner, Ted Slaman]
-bibliography:
-  - authors: [T. A. Slaman] 
-    year: 2004
-    title: "$\\Sigma_n$-bounding and $\\Delta_n$-induction" 
-    cite: "Proc. Amer. Math. Soc. 132, no. 8, 2449–2456"
-    doi: "10.1090/S0002-9939-04-07294-6"
-    mr: "2052424"
-    zbl: "1053.03034"
-  - authors: [H. Towsner] 
-    year: 2015
-    title: "On maximum conservative extensions"
-    cite: "Computability 4, no. 1, 57-68"
-    arxiv: "1302.1488"
-    doi: "10.3233/COM-150033"
-    mr: "3373217"
-    zbl: "1326.03072"
+bibliography: [Sla04n, Tow15k]
 ---
 It is well known that a model $$\newcommand{\MN}{\mathfrak{N}}\MN$$ of $$\newcommand{\RCA}[1]{\mathsf{RCA}_{#1}}\RCA0$$ satisfies $$\Sigma^0_n$$-induction ($$\newcommand{\Ind}[1]{\mathsf{I}{#1}}\Ind{\Sigma^0_n}$$) if and only if it satisfies bounded $$\Sigma^0_n$$-comprehension: if $$\phi(x)$$ is a $$\Sigma^0_n$$-formula (with parameters) then the set $$\set{x \lt b: \phi(x)}$$ exists for every number $$b$$ in $$\MN$$. Thus, it follows that $$\Pi^0_n$$-induction also holds and indeed induction holds for all boolean combinations of $$\Sigma^0_n$$ formulas. However, $$\Ind{\Sigma^0_n}$$ offers no control over sets of higher complexity than that. In particular, $$\Delta^0_{n+1}$$-induction may fail very badly in a model of $$\Ind{\Sigma^0_n}$$. Indeed, by a result of Slaman (2004) $$\Delta^0_{n+1}$$-induction is equivalent to $$\Sigma^0_{n+1}$$-bounding ($$\newcommand{\Bnd}[1]{\mathsf{B}{#1}}\Bnd{\Sigma^0_{n+1}}$$) and it is known that we have a strict hierarchy: 
 ^

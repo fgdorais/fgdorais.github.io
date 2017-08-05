@@ -6,21 +6,7 @@ published: true
 categories: [combinatorics, reverse-math, set-theory]
 tags: [Dushnik-Miller Dimension, MathOverflow, Open Problems, Posets, Ramsey Theory]
 people: [Denis Hirschfeldt, Justin Tatch Moore, Richard Shore, Tom Goodwillie, Wacław Sierpiński]
-bibliography:
-  - authors: [D. R. Hirschfeldt, R. A. Shore] 
-    year: 2007
-    title: "Combinatorial principles weaker than Ramsey's theorem for pairs" 
-    cite: "J. Symbolic Logic 72, no. 1, 171-206"
-    doi: "10.2178/jsl/1174668391"
-    mr: "2298478"
-    zbl: "1118.03055"
-  - authors: [J. T. Moore] 
-    year: 2006
-    title: "A five element basis for the uncountable linear orders" 
-    cite: "Ann. of Math. (2) 163, no. 2, 669-688"
-    doi: "10.4007/annals.2006.163.669"
-    mr: "2199228"
-    zbl: "1143.03026"
+bibliography: [HirSho07y, Moo06u]
 ---
 Behind the scenes at Boole's Rings, there was some talk on asking more open questions related to our research. I have three related problems that I would like to share. They are strikingly similar in nature, but they properly belong in three different branches of mathematics: the first problem is about finite combinatorics, the second problem is about reverse mathematics, and the third problem is about infinite combinatorics. To me they are three faces of the same question and I currently don't know how to answer any of them. 
 

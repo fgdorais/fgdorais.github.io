@@ -6,45 +6,7 @@ published: true
 categories: [combinatorics]
 tags: [Ramsey Theory, Finite Trees, Ultrametric Spaces]
 people: [Alexander Kechris, Daniel McDonald, Frank Ramsey, Lionel Nguyen van Thé, Manuel Rivera, Richard Rado, Steven Gubkin, Stevo Todorcevic, Vladimir Pestov]
-bibliography:
-  - authors: [F. G. Dorais, S. Gubkin, D. McDonald, M. Rivera] 
-    year: 2013
-    title: "Automorphism groups of countably categorical linear orders are extremely amenable" 
-    cite: "Order 30, 415-426"
-    doi: "10.1007/s11083-012-9252-6"
-    arxiv: "1202.4092"
-    mr: "3063195"
-    zbl: "1279.06002"
-  - authors: [A. S. Kechris, V. G. Pestov, S. Todorcevic] 
-    year: 2005
-    title: "Fraïssé limits, Ramsey theory, and topological dynamics"
-    cite: "Geom. Funct. Anal. 15, no. 1, 106-189"
-    arxiv: "math/0305241"
-    doi: "10.1007/s00039-005-0503-1"
-    mr: "2140630"
-    zbl: "1084.54014"
-  - authors: [L. Nguyen Van Thé] 
-    year: 2009
-    title: "Ramsey degrees of finite ultrametric spaces, ultrametric Urysohn spaces and dynamics of their isometry groups"
-    cite: "European J. Combin. 30, no. 4, 934-945"
-    doi: "10.1016/j.ejc.2008.07.007"
-    arxiv: "0710.2347"
-    mr: "2504653"
-    zbl: "1171.05436"
-  - authors: [R. Rado] 
-    year: 1954
-    title: "Direct decomposition of partitions" 
-    cite: "J. London Math. Soc. 29, 71-83"
-    doi: "10.1112/jlms/s1-29.1.71"
-    mr: "0065616"
-    zbl: "0055.04903"
-  - authors: [F. P. Ramsey]
-    year: 1930
-    title: "On a problem of formal logic" 
-    cite: "Proc. London Math. Soc. (2) 30, 264-286"
-    doi: "10.1112/plms/s2-30.1.264"
-    mr: "1576401"
-    zbl: "55.0032.04"
+bibliography: [DorGubMcDRiv13c, KecPesTod05h, The09o, Rad54s, Ram30e]
 ---
 In a recent paper (Dorais-Gubkin-McDonald-Rivera 2013), Steven Gubkin, Daniel McDonald, Manuel Rivera, and I stumbled across what appears to be a new result in Ramsey theory. As the title of our paper suggests, this result was not exactly our main goal. Nevertheless, the result is very interesting so I feel it is a good idea to give it some extra publicity by writing about it here. I will only talk about a special case of our result (the case of Corollary 5.5 where the tree presentation has no sum nodes) and I will present it in a slightly different light. Our proof is somewhat convoluted, one could even say that the result is an accidental byproduct of the main result of the paper on automorphism groups of countably categorical linear orders. Because of this, I don't feel like I understand how our result fits in the spectrum of known results in Ramsey theory. It is my hope that some of you may be able to fill-in some of the missing links... 
 

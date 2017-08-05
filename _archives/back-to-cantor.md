@@ -6,49 +6,7 @@ published: true
 categories: [category-theory, mathematical-philosophy, set-theory]
 tags: [ETCS, ZFC]
 people: [Bill Lawvere, Ernst Zermelo, Georg Cantor, Tom Leinster]
-bibliography:
-  - authors: [G. Cantor] 
-    year: 1895
-    title: "Beiträge zur Begründung der transfiniten Mengenlehre (Erster Artikel)"
-    cite: "Math. Ann. 46, no. 4, 481-512"
-    doi: "10.1007/BF02124929"
-    zbl: "26.0081.01"
-  - authors: [G. Cantor] 
-    year: 1895
-    title: "Beiträge zur Begründung der transfiniten Mengenlehre (Zweiter Artikel)" 
-    cite: "Math. Ann. 49, no. 2, 207-246"
-    doi: "10.1007/BF01444205"
-    mr: "1510964"
-    zbl: "28.0061.08"
-  - authors: [F. W. Lawvere] 
-    year: 1964
-    title: "An elementary theory of the category of sets" 
-    cite: "Proc. Nat. Acad. Sci. U.S.A. 52, no. 6, 1506–1511"
-    doi: "10.1073/pnas.52.6.1506"
-    mr: "0172807"
-    zbl: "0141.00603"
-    pmpermalink: /archives//"16591243"
-    pmcpermalink: /archives//"PMC300477"
-  - authors: [F. W. Lawvere]
-    year: 2005
-    title: "An elementary theory of the category of sets (long version) with commentary"
-    cite: "Repr. Theory Appl. Categ. No. 11, 1-35"
-    url: "http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html"
-    mr: "2177727"
-  - authors: [T. Leinster]
-    year: 2014
-    title: "Rethinking set theory"
-    cite: "Amer. Math. Monthly 121, no. 5, 403-415"
-    arxiv: "1212.6543"
-    doi: "10.4169/amer.math.monthly.121.05.403"
-    mr: "3193723"
-    zbl: "1345.03100"
-  - authors: [E. Zermelo]
-    year: 1908
-    title: "Untersuchungen über die Grundlagen der Mengenlehre I"
-    cite: "Math. Ann. 66, no. 2, 261–281"
-    doi: "10.1007/BF01449999"
-    zbl: "39.0097.03"
+bibliography: [Can95b, Can97j, Law64a, Law05v, Lei14g, Zer08o]
 ---
 Set Theory has a fantastic and legendary history. At the end, it left us with ZFC, which is currently recognized as _the_ foundation of mathematics. This state of affairs is arguably one of the best possible outcomes for the foundational crisis that plagued mathematics in the early 20th century. However, the choice to adopt ZFC was by no means unanimous, dissent has always been present, often with good reason. Whether propelled by inertia or by sheer power, for better or for worse, ZFC is now approaching 100 years of reign as the foundation of mathematics. 
 

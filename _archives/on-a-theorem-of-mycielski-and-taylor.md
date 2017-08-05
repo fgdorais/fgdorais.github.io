@@ -6,53 +6,7 @@ published: true
 categories: [combinatorics, set-theory]
 tags: [Cardinal Characteristics, Independent Sets, Polish Spaces, Ramsey Theory]
 people: [Alan Taylor, Andreas Blass, Fred Galvin, Jan Mycielski, Rafał Filipów, Tomasz Natkaniec]
-bibliography:
-  - authors: [T. Bartoszyński, H. Judah]
-    year: 1995
-    title: "Set Theory: On the structure of the real line"
-    cite: "A K Peters, Ltd. (Wellesley, MA)"
-    isbn: "9781568810447"
-    mr: "1350295"
-    zbl: "0834.04001"
-  - authors: [A. Blass]
-    year: 1981
-    title: "A partition theorem for perfect sets"
-    cite: "Proc. Amer. Math. Soc. 82, no. 2, 271-277"
-    doi: "10.2307/2043323"
-    mr: "609665"
-    zbl: "0472.03038"
-  - authors: [F. G. Dorais, R. Filipów]
-    year: 2005
-    title: "Algebraic sums of sets in Marczewski-Burstin algebras" 
-    cite: "Real Anal. Exchange 31, no. 1, 133-142"
-    mr: "2218194"
-    zbl: "1106.28001"
-    url: "projecteuclid.org/euclid.rae/1149516801"
-  - authors: [F. G. Dorais, R. Filipów, T. Natkaniec]
-    year: 2013
-    title: "On some properties of Hamel bases and their applications to Marczewski measurable functions"
-    cite: "Central European Journal of Mathematics 11, no. 3, 487–508"
-    doi: "10.2478/s11533-012-0144-1"
-    mr: "3016317"
-    zbl: "1259.28005"
-  - authors: [F. Galvin]
-    year: 1968
-    title: "Partition theorems for the real line"
-    cite: "Notices Amer. Math. Soc. 15, 660"
-  - authors: [J. Mycielski] 
-    year: 1964
-    title: "Independent sets in topological algebras"
-    cite: "Fund. Math. 55, 139–147"
-    mr: "0173645"
-    zbl: "0124.01301"
-    url: "matwbn.icm.edu.pl/ksiazki/fm/fm55/fm55112.pdf"
-  - authors: [A. Taylor]
-    year: 1978
-    title: "Partitions of pairs of reals"
-    cite: "Fund. Math. 99, no. 1, 51-59"
-    mr: "0465873"
-    zbl: "0377.04010"
-    url: "matwbn.icm.edu.pl/ksiazki/fm/fm99/fm9917.pdf"
+bibliography: [BarJud95v, Bla81l, DorFil05p, DorFilNat13u, Gal68c, Myc64n, Tay78b]
 ---
 Jan Mycielski (Mycielski 1964) proved a wonderful theorem about independent sets in Polish spaces. He showed that if $$X$$ is an uncountable Polish space and $$R_n$$ is a meager subset of $$X^n$$ for each $$n \geq 1$$, then there is a perfect set $$Z \subseteq X$$ such that $$(z_1,\dots,z_n) \notin R_n$$ whenever $$z_1,\dots,z_n$$ are distinct elements of $$Z$$. In other words, $$Z$$ is $$R_n$$-independent for each $$n \geq 1$$. This is a wonderfully general theorem that has a multitude of applications. 
 

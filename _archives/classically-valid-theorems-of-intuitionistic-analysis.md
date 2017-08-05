@@ -6,51 +6,7 @@ published: true
 categories: [proof-theory, reverse-math]
 tags: [Intuitionistic Logic, Realizability]
 people: [Anne Troelstra, Carl Mummert, Jaap van Oosten, Jeff Hirst, L. E. J. Brouwer]
-bibliography:
-  - authors: [L. E. J. Brouwer] 
-    year: 1923
-    title: "Über Definitionsbereiche von Funktionen"
-    cite: "Math. Ann. 97, no. 1, 60-75"
-    mr: "1512354"
-    doi: "10.1007/BF01447860"
-  - authors: [F. G. Dorais] 
-    year: 2011
-    title: "Classical consequences of continuous choice principles from intuitionistic analysis" 
-    cite: "Notre Dame J. Form. Log. 55, no. 1, 25-39"
-    arxiv: "1207.6434"
-    doi: "10.1215/00294527-2377860"
-    mr: "3161410"
-    zbl: "1331.03013"
-  - authors: [J. Hirst, C. Mummert] 
-    year: 2010
-    title: "Reverse mathematics and uniformity in proofs without excluded middle" 
-    cite: "Notre Dame J. Form. Log. 52, no. 2, 149-162"
-    arxiv: "1010.5165"
-    doi: "10.1215/00294527-1306163"
-    mr: "2794648"
-    zbl: "1225.03083"
-  - authors: [A. S. Troelstra] 
-    year: 1973
-    title: "Metamathematical investigation of intuitionistic arithmetic and analysis"
-    cite: "Lecture Notes in Mathematics 344, Springer-Verlag (Berlin)"
-    isbn: "9783540064916"
-    doi: "10.1007/BFb0066739"
-    mr: "0325352"
-    zbl: "0275.02025"
-  - authors: [J. van Heijenoort] 
-    year: 1967
-    title: "From Frege to Godel: A source book in mathematical logic, 1879-1931"
-    cite: "Harvard University Press (Cambridge, Mass.)"
-    isbn: "9780674324497"
-    mr: "0209111"
-    zbl: "0183.00601"
-  - authors: [J. van Oosten]
-    year: 1990
-    title: "Lifschitz' realizability" 
-    cite: "J. Symbolic Logic 55, no. 2, 805-821"
-    doi: "10.2307/2274666"
-    mr: "1056390"
-    zbl: "0704.03040"
+bibliography: [Bro23v, Dor11w, HirMum10k, Tro73r, Hei67y, Oos90m]
 ---
 It is well-known that proofs in intuitionistic logic are more constructive than proofs in classical logic. Indeed, this is what the (informal) Brouwer–Heyting–Kolmogorov (BHK) interpretation leads to believe. Thus, intuitionistic proofs tend to have more information content than classical proofs, a fact that is well exploited in proof mining. 
 

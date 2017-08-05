@@ -6,29 +6,7 @@ published: true
 categories: [computability, reverse-math]
 tags: [Weak König Lemma]
 people: [Carl Jockusch, Doug Cenzer, Itay Neeman, Peter Hinman, Richard Friedberg]
-bibliography:
-  - authors: [D. Cenzer, P. G. Hinman] 
-    year: 2008
-    title: "Degrees of difficulty of generalized r.e. separating classes"
-    cite: "Arch. Math. Logic 46, no. 7-8, 629–647"
-    doi: "10.1007/s00153-007-0058-y"
-    mr: "2395562"
-    zbl: "1151.03020"
-  - authors: [C. G. Jockusch Jr.] 
-    year: 1989
-    title: "Degrees of functions with no fixed points"
-    cite: "Logic, Methodology and Philosophy of Science VIII, Studies in Logic and the Foundations of Mathematics 126, 191–201"
-    isbn: "9780444705204"
-    doi: "10.1016/S0049-237X(08)70045-4"
-    mr: "1034562"
-    zbl: "0694.03027"
-  - authors: [I. Neeman]
-    year: 2011
-    title: "Necessary use of $\\Sigma^1_1$ induction in a reversal" 
-    cite: "J. Symbolic Logic 76, no. 2, 561–574"
-    doi: "10.2178/jsl/1305810764"
-    mr: "2830416"
-    zbl: "1218.03005"
+bibliography: [CenHin08r, Joc89f, Nee11m]
 ---
 It is well-known that computability theory and reverse mathematics have very strong ties. Indeed, the base theory $$\newcommand{\RCA}{\mathsf{RCA}_0}\RCA$$ used in reverse mathematics was designed as the minimal theory that can adequately formulate and prove the basic results of computability theory. Based on the Church–Turing thesis, this is a very reasonable way to capture the proof method known as direct computation in everyday mathematics. Although the ties run very deep, there are always frictions when translating results between computability theory and reverse mathematics. The aim of this post is to talk about different ways of doing this translation but I will do so by talking about a family of generalized separation principles that I recently realized were (non-trivially) equivalent, a fact that had been well known in computability theory for several decades. 
 

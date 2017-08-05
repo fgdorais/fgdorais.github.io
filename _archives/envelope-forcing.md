@@ -6,29 +6,7 @@ published: true
 categories: [combinatorics, computability, independence-proofs, reverse-math]
 tags: [Forcing, Ramsey Theory]
 people: [Denis Hirschfeldt, Jared Corduan, Reed Solomon, Richard Shore, Rod Downey, Steffen Lempp]
-bibliography:
-  - authors: [J. R. Corduan, F. G. Dorais] 
-    year: 2012
-    title: "On the indecomposability of $\\omega^n$"
-    cite: "Notre Dame J. Formal Logic 53, no. 3, 373–395"
-    arxiv: "1111.1367"
-    doi: "10.1215/00294527-1716784"
-    mr: "2981014"
-    zbl: "1260.03017"
-  - authors: [R. Downey, D. R. Hirschfeldt, S. Lempp, R. Solomon] 
-    year: 2001
-    title: "A $\\Delta^0_2$ set with no infinite low subset in either it or its complement" 
-    cite: "J. Symbolic Logic 66, no. 3, 1371–1381"
-    doi: "10.2307/2695113"
-    mr: "1856748"
-    zbl: "0990.03046"
-  - authors: [D. R. Hirschfeldt, R. A. Shore] 
-    year: 2007
-    title: "Combinatorial principles weaker than Ramsey's theorem for pairs" 
-    cite: "J. Symbolic Logic 72, no. 1, 171-206"
-    doi: "10.2178/jsl/1174668391"
-    mr: "2298478"
-    zbl: "1118.03055"
+bibliography: [CorDor12n, DowHirLemSol01m, HirSho07y]
 ---
 In a recent paper (Corduan-Dorais 2012), Jared Corduan and I considered various notions of combinatorial indecomposability for finite ordinal powers of $$\omega.$$ In this process, we uncovered two weak forms of Ramsey's theorem for pairs ($$\newcommand{\RT}[2]{\mathsf{RT}^{#1}_{#2}}\RT2k$$): 
 
