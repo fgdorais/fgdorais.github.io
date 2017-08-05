@@ -204,7 +204,7 @@ HirSho07y:
   year: 2007
   zbl: '1118.03055'
 Joc89f:
-  authors: [C. G. Jockusch Jr.]
+  authors: [C. G. Jockusch Jr.]
   cite: Logic, Methodology and Philosophy of Science VIII, Studies in Logic and the
     Foundations of Mathematics 126, 191--201
   doi: 10.1016/S0049-237X(08)70045-4
@@ -302,6 +302,15 @@ Nee11m:
   title: Necessary use of $\Sigma^1_1$ induction in a reversal
   year: 2011
   zbl: '1218.03005'
+Ngu09o:
+  arxiv: '0710.2347'
+  authors: [L. Nguyen Van Thé]
+  cite: European J. Combin. 30, no. 4, 934--945
+  doi: 10.1016/j.ejc.2008.07.007
+  mr: '2504653'
+  title: Ramsey degrees of finite ultrametric spaces, ultrametric Urysohn spaces and dynamics of their isometry groups
+  year: 2009
+  zbl: '1171.05436'
 Oos90m:
   authors: [J. van Oosten]
   cite: J. Symbolic Logic 55, no. 2, 805--821
@@ -350,16 +359,6 @@ Tay78b:
   url: matwbn.icm.edu.pl/ksiazki/fm/fm99/fm9917.pdf
   year: 1978
   zbl: '0377.04010'
-The09o:
-  arxiv: '0710.2347'
-  authors: [L. Nguyen Van Thé]
-  cite: European J. Combin. 30, no. 4, 934--945
-  doi: 10.1016/j.ejc.2008.07.007
-  mr: '2504653'
-  title: Ramsey degrees of finite ultrametric spaces, ultrametric Urysohn spaces and
-    dynamics of their isometry groups
-  year: 2009
-  zbl: '1171.05436'
 Tod11q:
   authors: [S. Todorcevic]
   cite: Bull. Symbolic Logic 17, no. 1, 1--72

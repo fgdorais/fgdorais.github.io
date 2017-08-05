@@ -1,0 +1,2 @@
+{% assign ref = site.data.bibliography[include.cite] %}
+(<a href="{{ include.cite | prepend: '#' }}">{% for a in ref.authors %}{{ a | split: ' ' | last }}{% unless forloop.last %}&ndash;{% endunless %}{% endfor %} {{ ref.year }}</a>)
