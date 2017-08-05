@@ -7,10 +7,6 @@ layout: default
 
 {% include bibliography.html %}
 
-<hr />
-<small id="license">
-  Originally posted <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}">{{ page.date | date: 'on %B %e, %Y, at %H:%M' }}</time> by François G. Dorais.<br />
-  Dedicated to the public domain: <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</a>.
-</small>
+{% include license.html %}
 
 {% include comments.html %}

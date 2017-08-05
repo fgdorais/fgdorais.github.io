@@ -80,8 +80,13 @@ ol#bibliography {
   }
 }
 
-small#license {
-  font-size: 75%;
+p#license {
+  font-size: 12px;
   font-style: italic;
-  line-height: 1.0;
+  line-height: 15px;
+  img {
+      border-style: none;
+      float: left;
+      margin: 0 4px 0 0;
+  }
 }
