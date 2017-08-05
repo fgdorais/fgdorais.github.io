@@ -1,2 +1,2 @@
-{% assign ref = site.data.bibliography[include.cite] %}
-{% for a in ref.authors %}{% if forloop.first %}{% elsif forloop.last %} and&nbsp;{% else %}, {% endif %}{{ a | split: ' ' | last }}{% endfor %} (<a href="{{ include.cite | prepend: '#' }}">{{ ref.year }}</a>)
+{% assign authors = site.data.bibliography[include.cite].authors %}
+{% include citen list=authors tie=', ' tie_last=' and ' %} ([{{ site.data.bibliography[include.cite].year }}](#include.cite))

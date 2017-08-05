@@ -12,7 +12,7 @@ bibliography: [BarJud95v, Bla81l, DorFil05p, DorFilNat13u, Gal68c, Myc64n, Tay78
 
 One of my favorite theorems where Mycielski's Theorem comes in handy is a remarkable partition theorem due to Fred Galvin. 
 
-**Theorem {% include p cite='Gal68c' %}.** _Let $$X$$ be an uncountable Polish space and let $$c:[X]^2\to\set{0,\dots,k-1}$$ be a Baire measurable coloring where $$k$$ is a positive integer. Then $$X$$ has a perfect $$c$$-homogeneous subset._
+**Theorem ({% include s cite='Gal68c' %}).** _Let $$X$$ be an uncountable Polish space and let $$c:[X]^2\to\set{0,\dots,k-1}$$ be a Baire measurable coloring where $$k$$ is a positive integer. Then $$X$$ has a perfect $$c$$-homogeneous subset._
 
 Galvin proved a similar result for colorings of $$[X]^3$$, but with a weaker conclusion that triples from the perfect set take on at most two colors. {% include t cite='Bla81l' %} then extended Galvin's result to colorings of $$[X]^n$$, showing that there is a perfect set that takes on at most $$(n-1)!$$ colors. 
 
@@ -20,7 +20,7 @@ Galvin's result has many applications too. For example, Rafał Filipów and I us
 
 {% include t cite='Tay78b' %} generalized the result to Baire measurable colorings $$c:[X]^2\to\kappa$$ where $$\kappa$$ is any cardinal smaller than $$\DeclareMathOperator{\cov}{cov}\newcommand{\meager}{\mathcal{M}}\cov(\meager)$$. Doing so, Taylor similarly generalized Mycielski's Theorem, but he only stated the result for binary relations. Recently, Rafał Filipów, Tomasz Natkaniec and I needed this generalization for relations of arbitrary arity. Unfortunately, the Mycielski–Taylor result has never been stated in full generality, so we included a proof in our paper {% include p cite='DorFilNat13u' %}. I am copying this proof here because I think the result is of independent interest and our proof is a nice application of Cohen forcing. A nice consequence of this extended Mycielski–Taylor Theorem is that Blass's result extends to Baire measurable colorings $$c:[X]^n\to\kappa$$ where $$\kappa \lt \cov(\meager)$$ in the same way that Taylor generalized Galvin's result for partitions of pairs. 
 
-**Theorem ([Mycielski 1964](#Myc64n), [Taylor 1978](#Tay78b)).** _Let $$X$$ be an uncountable Polish space and let $$\mathcal{R}$$ be a family of fewer than $$\cov(\meager)$$ closed nowhere dense relations on $$X$$, i.e., each $$R \in \mathcal{R}$$ is a closed nowhere dense subset of $$X^n$$ for some $$n = n(R)$$. Then $$X$$ contains a perfect set which is $$R$$-independent for every $$R \in \mathcal{R}$$._
+**Theorem ({% include s cite='Myc64n' %}, {% include s cite='Tay78b' %}).** _Let $$X$$ be an uncountable Polish space and let $$\mathcal{R}$$ be a family of fewer than $$\cov(\meager)$$ closed nowhere dense relations on $$X$$, i.e., each $$R \in \mathcal{R}$$ is a closed nowhere dense subset of $$X^n$$ for some $$n = n(R)$$. Then $$X$$ contains a perfect set which is $$R$$-independent for every $$R \in \mathcal{R}$$._
 
 Our proof relies on the following forcing characterization of $$\cov(\meager)$$, which can be found in {% include p cite='BarJud95v' %}. 
 

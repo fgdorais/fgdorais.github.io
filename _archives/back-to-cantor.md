@@ -52,7 +52,7 @@ This kind of unified foundation is clearly one of the best possible outcomes for
 
 ---
 
-[^1]: Cantor ([1895](#Can95b)), pp. 481&ndash;482:
+[^1]: ({% include s cite='Can95b' %}, pp. 481&ndash;482):
       > Jeder Menge $$M$$ kommt eine bestimmte ,Mächtigkeit' zu, welche wir such ihre ,Cardinalzahl' nennen.
       > ,Mächtigkeit' oder ,Cardinalzahl' von $$M$$ nennen wit den Allgemeinbegriff, welcher mit Hülfe unseres activen Denkvermögens dadurch aus der Menge $$M$$ hervorgeht, dass von der Beschaffenheit ihrer verschiedenen Elemente $$m$$ und von der Ordnung ihres Gegebenseins abstrahirt wird.
       > Das Resultat dieses zweifachen Abstractionsacts, die Cardinalzahl oder Mächtigkeit von $$M$$, bezeichnen wit mit $$\overline{\overline{M}}$$.
