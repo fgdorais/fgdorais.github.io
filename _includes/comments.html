@@ -1,0 +1,19 @@
+{% assign comments = site.comments | where: "subject", page.slug | where: "published", "true" %}
+{% if comments[0] %}
+<h4>Comments</h4>
+<ul style="list-style: none; padding: 0;">
+{% for c in comments %}
+<li id="{{ c.title }}" style="background: url(https://www.gravatar.com/avatar/{{ c.from.md5 }}?d=identicon&s=36&r=g) no-repeat left top; padding-left: 48px;">
+<p>{% if c.from.url %}<a href="{{ c.from.url }}">{{ c.from.name }}</a>{% else %}{{ c.from.name }}{% endif %}</a> 
+{% if c.in-reply-to %}
+{% assign ref = comments | where: "title", c.in-reply-to | first %}
+replied to <a href="#{{ c.in-reply-to }}">{{ ref.from.name }}</a>
+{% else %}
+wrote
+{% endif %}
+<time datetime="{{ c.date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}">{{ c.date | date: 'on %B %e, %Y, at %H:%M' }}</time></p>
+{{ c | markdownify }}
+<hr />
+{% endfor %}
+</ul>
+{% endif %}
