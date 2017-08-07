@@ -6,17 +6,16 @@ published: true
 categories: [independence-proofs, reverse-math]
 tags: [Forcing, Second-Order Arithmetic]
 people: [Henry Towsner, Ted Slaman]
-bibliography: [Sla04n, Tow15k]
 ---
-It is well known that a model $$\newcommand{\MN}{\mathfrak{N}}\MN$$ of $$\newcommand{\RCA}[1]{\mathsf{RCA}_{#1}}\RCA0$$ satisfies $$\Sigma^0_n$$-induction ($$\newcommand{\Ind}[1]{\mathsf{I}{#1}}\Ind{\Sigma^0_n}$$) if and only if it satisfies bounded $$\Sigma^0_n$$-comprehension: if $$\phi(x)$$ is a $$\Sigma^0_n$$-formula (with parameters) then the set $$\set{x \lt b: \phi(x)}$$ exists for every number $$b$$ in $$\MN$$. Thus, it follows that $$\Pi^0_n$$-induction also holds and indeed induction holds for all boolean combinations of $$\Sigma^0_n$$ formulas. However, $$\Ind{\Sigma^0_n}$$ offers no control over sets of higher complexity than that. In particular, $$\Delta^0_{n+1}$$-induction may fail very badly in a model of $$\Ind{\Sigma^0_n}$$. Indeed, by a result of {% include t cite='Sla04n' %} $$\Delta^0_{n+1}$$-induction is equivalent to $$\Sigma^0_{n+1}$$-bounding ($$\newcommand{\Bnd}[1]{\mathsf{B}{#1}}\Bnd{\Sigma^0_{n+1}}$$) and it is known that we have a strict hierarchy: 
+It is well known that a model $$\newcommand{\MN}{\mathfrak{N}}\MN$$ of $$\newcommand{\RCA}[1]{\mathsf{RCA}_{#1}}\RCA0$$ satisfies $$\Sigma^0_n$$-induction ($$\newcommand{\Ind}[1]{\mathsf{I}{#1}}\Ind{\Sigma^0_n}$$) if and only if it satisfies bounded $$\Sigma^0_n$$-comprehension: if $$\phi(x)$$ is a $$\Sigma^0_n$$-formula (with parameters) then the set $$\set{x \lt b: \phi(x)}$$ exists for every number $$b$$ in $$\MN$$. Thus, it follows that $$\Pi^0_n$$-induction also holds and indeed induction holds for all boolean combinations of $$\Sigma^0_n$$ formulas. However, $$\Ind{\Sigma^0_n}$$ offers no control over sets of higher complexity than that. In particular, $$\Delta^0_{n+1}$$-induction may fail very badly in a model of $$\Ind{\Sigma^0_n}$$. Indeed, by a result of {% include t.cite _='Sla04n' %} $$\Delta^0_{n+1}$$-induction is equivalent to $$\Sigma^0_{n+1}$$-bounding ($$\newcommand{\Bnd}[1]{\mathsf{B}{#1}}\Bnd{\Sigma^0_{n+1}}$$) and it is known that we have a strict hierarchy: 
 ^
 $$\Ind{\Sigma^0_1} \quad\WHEN\quad \Bnd{\Sigma^0_2} \quad\WHEN\quad \Ind{\Sigma^0_2} \quad\WHEN\quad \Bnd{\Sigma^0_3} \quad\WHEN \cdots$$
 ^
- The actual size of the gaps between $$\Ind{\Sigma^0_n}$$ and $$\Bnd{\Sigma^0_{n+1}}$$ has recently been quantified by {% include t cite='Tow15k' %}, who used a beautiful forcing argument to show that $$\Ind{\Sigma^0_n}$$ gives absolutely no control whatsoever on $$\Delta^0_{n+1}$$-definable sets. 
+ The actual size of the gaps between $$\Ind{\Sigma^0_n}$$ and $$\Bnd{\Sigma^0_{n+1}}$$ has recently been quantified by {% include t.cite _='Tow15k' %}, who used a beautiful forcing argument to show that $$\Ind{\Sigma^0_n}$$ gives absolutely no control whatsoever on $$\Delta^0_{n+1}$$-definable sets. 
 
-**Theorem {% include p cite='Tow15k' %}.** _If $$\MN$$ is a model of $$\RCA0$$ and $$X$$ is any external set of numbers in $$\MN$$ then there is an $$\omega$$-extension $$\MN'$$ of $$\MN$$ that satisfies $$\RCA0$$ and such that $$X$$ is $$\Delta^0_2$$-definable in $$\MN'$$._
+**Theorem {% include p.cite _='Tow15k' %}.** _If $$\MN$$ is a model of $$\RCA0$$ and $$X$$ is any external set of numbers in $$\MN$$ then there is an $$\omega$$-extension $$\MN'$$ of $$\MN$$ that satisfies $$\RCA0$$ and such that $$X$$ is $$\Delta^0_2$$-definable in $$\MN'$$._
 
-**Theorem {% include p cite='Tow15k' %}.** _If $$\MN$$ is a model of $$\RCA0+\Ind{\Sigma^0_n}$$ and $$X$$ is any external set of numbers in $$\MN$$ then there is an $$\omega$$-extension $$\MN'$$ of $$\MN$$ that satisfies $$\RCA0+\Ind{\Sigma^0_n}$$ and such that $$X$$ is $$\Delta^0_{n+1}$$-definable in $$\MN'$$._
+**Theorem {% include p.cite _='Tow15k' %}.** _If $$\MN$$ is a model of $$\RCA0+\Ind{\Sigma^0_n}$$ and $$X$$ is any external set of numbers in $$\MN$$ then there is an $$\omega$$-extension $$\MN'$$ of $$\MN$$ that satisfies $$\RCA0+\Ind{\Sigma^0_n}$$ and such that $$X$$ is $$\Delta^0_{n+1}$$-definable in $$\MN'$$._
 
 I will only outline the proof of the first result. The Limit Lemma gives a very combinatorial way to understand $$\Delta^0_2$$-definable sets over $$\MN$$. Namely, the external set $$X$$ is $$\Delta^0_2$$-definable in $$\MN$$ exactly when there is a function $$c:\N^2\to\set{0,1}$$ in $$\MN$$ such that $$\lim_{y\to\infty} c(x,y)$$ exists for every $$x$$ and $$x \in X \IFF \lim_{y\to\infty} c(x,y) = 1$$. In general, a function $$f:\N^2\to\N$$ such that $$\lim_{y\to\infty} f(x,y)$$ exists for every $$x$$ is called _stable_. Towsner's strategy is to generically add a stable coloring $$c:\N^2\to\set{0,1}$$ such that $$x \in X \IFF \lim_{y\to\infty} c(x,y) = 1$$ and show that the forcing to add such a coloring preserves $$\RCA0$$. 
 
@@ -26,3 +25,5 @@ The main difficulty is in showing that $$\MN[c]$$ still satisfies $$\Ind{\Sigma^
 
 Of course, this forcing construction is only a small part of Towsner's excellent paper, I highly recommend reading it! 
 
+
+{% include cite.md %}

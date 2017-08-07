@@ -45,21 +45,21 @@ Bro23v:
   mr: '1512354'
   title: Über Definitionsbereiche von Funktionen
   year: 1923
-Can95b:
+Can95j:
+  authors: [G. Cantor]
+  cite: Math. Ann. 46, no. 4, 481--512
+  doi: 10.1007/BF02124929
+  title: Beiträge zur Begründung der transfiniten Mengenlehre (Erster Artikel)
+  year: 1895
+  zbl: 26.0081.01
+Can97b:
   authors: [G. Cantor]
   cite: Math. Ann. 49, no. 2, 207--246
   doi: 10.1007/BF01444205
   mr: '1510964'
   title: Beiträge zur Begründung der transfiniten Mengenlehre (Zweiter Artikel)
-  year: 1895
-  zbl: 28.0061.08
-Can97j:
-  authors: [G. Cantor]
-  cite: Math. Ann. 46, no. 4, 481--512
-  doi: 10.1007/BF02124929
-  title: Beiträge zur Begründung der transfiniten Mengenlehre (Erster Artikel)
   year: 1897
-  zbl: 26.0081.01
+  zbl: 28.0061.08
 CenHin08r:
   authors: [D. Cenzer, P. G. Hinman]
   cite: Arch. Math. Logic 46, no. 7--8, 629--647
@@ -288,10 +288,10 @@ MumSte10o:
   zbl: '1196.54046'
 Myc64n:
   authors: [J. Mycielski]
-  cite: Fund. Math. 55, 139--147
+  cite: Fund. Math. 55, no. 2, 139--147
   mr: '0173645'
   title: Independent sets in topological algebras
-  url: matwbn.icm.edu.pl/ksiazki/fm/fm55/fm55112.pdf
+  url: pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-fmv55i1p12bwm
   year: 1964
   zbl: '0124.01301'
 Nee11m:
@@ -356,7 +356,7 @@ Tay78b:
   cite: Fund. Math. 99, no. 1, 51--59
   mr: 0465873
   title: Partitions of pairs of reals
-  url: matwbn.icm.edu.pl/ksiazki/fm/fm99/fm9917.pdf
+  url: pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-fmv99i1p7bwm
   year: 1978
   zbl: '0377.04010'
 Tod11q:

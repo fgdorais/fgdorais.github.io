@@ -1,2 +1,0 @@
-{% assign authors = site.data.bibliography[include.cite].authors %}
-{% include citen list=authors tie=', ' tie_last=' and ' %} ([{{ site.data.bibliography[include.cite].year }}](#include.cite))

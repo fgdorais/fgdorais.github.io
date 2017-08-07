@@ -6,9 +6,8 @@ published: true
 categories: [combinatorics, computability, independence-proofs, reverse-math]
 tags: [Forcing, Ramsey Theory]
 people: [Denis Hirschfeldt, Jared Corduan, Reed Solomon, Richard Shore, Rod Downey, Steffen Lempp]
-bibliography: [CorDor12n, DowHirLemSol01m, HirSho07y]
 ---
-In a recent paper {% include p cite='CorDor12n' %}, Jared Corduan and I considered various notions of combinatorial indecomposability for finite ordinal powers of $$\omega.$$ In this process, we uncovered two weak forms of Ramsey's theorem for pairs ($$\newcommand{\RT}[2]{\mathsf{RT}^{#1}_{#2}}\RT2k$$): 
+In a recent paper {% include p.cite _='CorDor12n' %}, Jared Corduan and I considered various notions of combinatorial indecomposability for finite ordinal powers of $$\omega.$$ In this process, we uncovered two weak forms of Ramsey's theorem for pairs ($$\newcommand{\RT}[2]{\mathsf{RT}^{#1}_{#2}}\RT2k$$): 
 
 **The Weak Ramsey Theorem ($$\newcommand{\Wk}{\mathsf{W}}\Wk\RT2k$$).**
 : For every coloring $$c:\N^2\to\set{0,\dots,k-1}$$ there are a color $$d \lt k$$ and an infinite set $$H$$ such that $$\set{y \in \N : c(x,y) = d}$$ is infinite for every $$x \in H.$$
@@ -38,7 +37,7 @@ $$\bigcup_{x=g(i-1)}^{g(i)-1} \set{y \in \N : c(x,y) = 0}$$
 ^
  cofinite. Of course, adding $$g$$ to $$\MN'$$ is of no use, we want to add $$g$$ to the ground model $$\MN.$$ We can certainly form the model $$\MN[g]$$ obtained by adding $$g$$ to $$\MN$$ and closing under $$\Delta^0_1$$-comprehension. The result will certainly be a model of $$\RCA$$ because $$\MN[g] \subseteq \MN'[g]$$ but we also want $$\MN[g]$$ to satisfy $$\Ind{\Sigma^0_2}$$ so we can iterate this process and obtain a model of $$\HWk\RT22$$ in the limit. 
 
-It turns out that $$\PP$$ is relatively large in the poset $$\PP_0$$ of all finite increasing functions $$p:\set{0,\dots,\card{p}-1}\to\N$$ — which is just a variation of Cohen forcing for our base model $$\MN.$$ The following lemma (corresponding to Lemma 3.10 in {% include p cite='CorDor12n' %}) shows that the generic $$g$$ for $$\PP$$ over $$\MN'$$ is also somewhat generic for $$\PP_0$$ over the original model $$\MN,$$ sufficiently generic that the extension $$\MN[g]$$ will satisfy $$\RCA + \Ind{\Sigma^0_2}.$$ 
+It turns out that $$\PP$$ is relatively large in the poset $$\PP_0$$ of all finite increasing functions $$p:\set{0,\dots,\card{p}-1}\to\N$$ — which is just a variation of Cohen forcing for our base model $$\MN.$$ The following lemma (corresponding to Lemma 3.10 in {% include p.cite _='CorDor12n' %}) shows that the generic $$g$$ for $$\PP$$ over $$\MN'$$ is also somewhat generic for $$\PP_0$$ over the original model $$\MN,$$ sufficiently generic that the extension $$\MN[g]$$ will satisfy $$\RCA + \Ind{\Sigma^0_2}.$$ 
 
 **Relative Largeness Lemma.** _Suppose $$U \subseteq \PP_0$$ is $$\Sigma^0_1$$-definable over $$\MN.$$ For every $$p \in \PP,$$ if for every $$q \leq p,$$ $$q \in \PP,$$ there is a $$r \leq q$$ (in $$\PP_0$$ but not necessarily in $$\PP$$) such that $$r \in U,$$ then for every $$q \leq p,$$ $$q \in \PP,$$ there is a $$r \leq q$$ such that $$r \in U \cap \PP.$$_
 
@@ -52,7 +51,7 @@ Note that $$g$$ is unlikely to be much more generic than that since no initial s
 
 The reason for this is that $$\MN'[g]$$ contains Skolem functions for $$\Pi^0_2$$ formulas with parameters in $$\MN[g]$$ (Corduan-Dorais 2012, Proposition 3.13). Once Skolemized, a $$\Pi^0_2$$ formula becomes $$\Pi^0_1.$$ Because $$\MN'[g]$$ satisfies $$\Ind{\Sigma^0_1}$$ and $$\MN'[g]$$ is an $$\omega$$-extension of $$\MN[g],$$ it follows that $$\MN[g]$$ satisfies $$\Ind{\Sigma^0_2}.$$ So now we can iterate this process externally, taking care of any coloring $$c:\N^2\to\set{0,1}$$ that appears along the way, to obtain a model of $$\HWk\RT22.$$ 
 
-Is this envelope forcing technique useful for anything else? Yes! In fact, the method was inspired by {% include t cite='HirSho07y' %}, who used a similar technique for $$\mathsf{SADS}$$ and $$\mathsf{SCAC}.$$ (The main differences are that they use methods from computability theory and they mostly care about $$\omega$$-models, so they have no need for enveloping models.) Let's see how to recast these two examples in terms of envelope forcing. 
+Is this envelope forcing technique useful for anything else? Yes! In fact, the method was inspired by {% include t.cite _='HirSho07y' %}, who used a similar technique for $$\mathsf{SADS}$$ and $$\mathsf{SCAC}.$$ (The main differences are that they use methods from computability theory and they mostly care about $$\omega$$-models, so they have no need for enveloping models.) Let's see how to recast these two examples in terms of envelope forcing. 
 
 Recall that a (countable) linear ordering $$L$$ is stable if every element either has finitely many predecessors or has finitely many successors. Finite linear orderings are stable, and so are the infinite linear orderings $$\omega+n,$$ $$n + \omega^*,$$ and $$\omega+\omega^*.$$ The principle $$\mathsf{SADS}$$ says that these are the only stable linear orderings, which boils down to saying that every infinite stable linear ordering has an infinite ascending or descending sequence. This is not provable in $$\RCA$$ but it is $$\Pi^1_1$$ conservative over $$\RCA + \Ind{\Sigma^0_2},$$ as can be shown by an envelope forcing argument. 
 
@@ -81,7 +80,7 @@ It follows that $$\St\Mix\RT22$$ is $$\Pi^1_1$$ conservative over $$\RCA + \Ind{
   * _There is a computable increasing function $$h:\N\to\N$$ such that $$\bigcup_{x=h(i-1)}^{h(i)-1} \set{y \in \N : c(x,y) = 0}$$ is infinite for every $$i \geq 1.$$_
   * _There is a $$0'$$-computable $$1$$-generic increasing function $$g:\N\to\N$$ such that $$\bigcup_{x=g(i-1)}^{g(i)-1} \set{y \in \N : c(x,y) = 0}$$ is cofinite for every $$i \geq 1.$$_
 
-It was shown by {% include t cite='DowHirLemSol01m' %} that some computable instances of $$\St\RT22$$ have no low solutions. Since $$\St\RT22$$ follows from $$\Wk\RT22,$$ this shows that there is an instance of $$\Wk\RT22$$ that has no low solutions either. A $${0}'$$-computable $$1$$-generic function is always low, so there is an $$\omega$$-model of $$\HWk\RT22$$ that contains only low sets. This $$\omega$$-model cannot be a model of $$\Wk\RT22,$$ which shows that $$\HWk\RT22$$ does not imply $$\Wk\RT22.$$ 
+It was shown by {% include t.cite _='DowHirLemSol01m' %} that some computable instances of $$\St\RT22$$ have no low solutions. Since $$\St\RT22$$ follows from $$\Wk\RT22,$$ this shows that there is an instance of $$\Wk\RT22$$ that has no low solutions either. A $${0}'$$-computable $$1$$-generic function is always low, so there is an $$\omega$$-model of $$\HWk\RT22$$ that contains only low sets. This $$\omega$$-model cannot be a model of $$\Wk\RT22,$$ which shows that $$\HWk\RT22$$ does not imply $$\Wk\RT22.$$ 
 
 The argument for $$\St\Mix\RT22$$ gives the following. 
 
@@ -92,3 +91,5 @@ The argument for $$\St\Mix\RT22$$ gives the following.
 
 So $$\St\Mix\RT22$$ does not imply $$\St\RT22.$$ Neither do any of its consequences, such as $$\St\Pth\RT2k,$$ $$\mathsf{SADS}$$ and $$\mathsf{SCAC}.$$ 
 
+
+{% include cite.md %}

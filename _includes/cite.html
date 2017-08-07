@@ -1,11 +1,12 @@
-{% if page.bibliography %}
+{% if biblist %}
+{% assign biblist = biblist | sort %}
 <h4>References</h4>
 <ol id="bibliography">
-  {% for item in page.bibliography %}
-  {% assign ref = site.data.bibliography[item] %}
-  <li id="{{ item }}">
+  {% for bibitem in biblist %}
+  {% assign ref = site.data.bibliography[bibitem] %}
+  <li id="{{ bibitem }}">
     {{ ref.authors | join: ", " }}, {{ ref.year }}:
-    <cite>{{ ref.title }}</cite>, {{ ref.cite | smartify }}.
+    <em>{{ ref.title }}</em>, {{ ref.cite | smartify }}.
     <ul class="hlist">
       {% if ref.mr %}
       <li>mr: <a href="https://www.ams.org/mathscinet-getitem?mr={{ ref.mr }}">{{ ref.mr }}</a></li>

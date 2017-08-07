@@ -6,9 +6,8 @@ published: true
 categories: [mathematical-philosophy, set-theory]
 tags: [Set-Theoretic Multiverse]
 people: [Joel David Hamkins, Victoria Gitman]
-bibliography: [GitHam10p, Ham12b]
 ---
-In {% include p cite='Ham12b' %}, Joel David Hamkins proposed a set of axioms for the set-theoretic multiverse. Several of these axioms reflect the typical world many set theorists live in, namely that generic extensions, inner models and the like are all legitimate universes. Some set theorists prefer the universe perspective where one such universe is singled out as more legitimate than others and other set theorists prefer to think that any universe is as legitimate as any other. Hamkins is of the latter view and, in many ways, his view is even radically opposed to the universe perspective. Indeed, some of Hamkins's axioms take the form of "mirages" that gradually eliminate the possibility of singling out a preferred universe. These can be formulated as follows.[^1]
+In {% include p.cite _='Ham12b' %}, Joel David Hamkins proposed a set of axioms for the set-theoretic multiverse. Several of these axioms reflect the typical world many set theorists live in, namely that generic extensions, inner models and the like are all legitimate universes. Some set theorists prefer the universe perspective where one such universe is singled out as more legitimate than others and other set theorists prefer to think that any universe is as legitimate as any other. Hamkins is of the latter view and, in many ways, his view is even radically opposed to the universe perspective. Indeed, some of Hamkins's axioms take the form of "mirages" that gradually eliminate the possibility of singling out a preferred universe. These can be formulated as follows.[^1]
 
 Uncountability Mirage
 : _Every universe is countable from the perspective of a larger universe._
@@ -24,7 +23,7 @@ Finiteness Mirage
 
 The Undefinability Mirage is a fascinating axiom that I hope to talk about in the near future but it does not directly contradict the universe perspective. The Uncountability Mirage is startling but it isn't earth-shattering on its own. However, the last two mirages are fundamentally incompatible with the universe perspective. The Finiteness Mirage — which actually implies the Wellfoundedness Mirage — is especially striking since it asserts that no universe understands true finiteness. This is a chilling thought for most mathematicians, even those who do not espouse the classical universe view. After reading Hamkins's account, I wondered what kind of arithmetical consequences the multiverse axioms have. This is an important question since an arithmetical disagreement between the multiverse view and the universe view would make the divide much more than a different perspective. 
 
-To answer this question, let's step outside the multiverse and take a divine perspective where we understand true finiteness. From this divine perspective, we will analyze the multiverse and see what we could possibly infer from these mirages. We will first reverse engineer the key ingredients in the consistency proof of {% include t cite='GitHam10p' %} and then rebuild the multiverse with minimal assumptions on our divine understanding. From this process, we will then see that the true consequences of the multiverse view cannot exceed these minimal assumptions. In order to carry this out, we will need to make a some additional assumptions how the multiverse relates to our divine world. The first of these is that while no individual universe understands true finiteness, they collectively do understand true finiteness. 
+To answer this question, let's step outside the multiverse and take a divine perspective where we understand true finiteness. From this divine perspective, we will analyze the multiverse and see what we could possibly infer from these mirages. We will first reverse engineer the key ingredients in the consistency proof of {% include t.cite _='GitHam10p' %} and then rebuild the multiverse with minimal assumptions on our divine understanding. From this process, we will then see that the true consequences of the multiverse view cannot exceed these minimal assumptions. In order to carry this out, we will need to make a some additional assumptions how the multiverse relates to our divine world. The first of these is that while no individual universe understands true finiteness, they collectively do understand true finiteness. 
 
 Divine Finiteness
 : _Every truly nonstandard finite ordinal in some universe is nonstandard in some larger universe._
@@ -48,7 +47,7 @@ Divine Comprehension
 
 Thus the divine subsets of $$\omega$$ also form a Scott set. 
 
-Following the analysis of {% include p cite='GitHam10p' %}, we will now show that these standard systems are very strong invariants for universes. Let us say that two universes $$U$$ and $$U'$$ are _compatible_ if they are both elements of the same larger universe. 
+Following the analysis of {% include p.cite _='GitHam10p' %}, we will now show that these standard systems are very strong invariants for universes. Let us say that two universes $$U$$ and $$U'$$ are _compatible_ if they are both elements of the same larger universe. 
 
 **Compatibility Lemma.** _Any two compatible universes have the same standard system._
 
@@ -68,9 +67,9 @@ $$s = \set{n \in \omega^V : (\exists \bar{a} \in U)(\forall i \in \hat{t}\cap n)
 
 From these lemmas, we get a very nice picture of the multiverse. The multiverse is divided into _trunks_ within which all universes have the same standard system. Different trunks are incompatible and each forms a multiverse on its own. Within a trunk, models are categorized by their theories. 
 
-{% include t cite='Ham12b' %} is deliberately vague regarding what axioms universes need to satisfy. Whatever these axioms are, they should be enough to make sense of the multiverse axioms and the arguments above. For our purposes, let's assume these axioms form a recursively axiomatizable theory $$\mathcal{U}$$. 
+{% include t.cite _='Ham12b' %} is deliberately vague regarding what axioms universes need to satisfy. Whatever these axioms are, they should be enough to make sense of the multiverse axioms and the arguments above. For our purposes, let's assume these axioms form a recursively axiomatizable theory $$\mathcal{U}$$. 
 
-**Theorem {% include p cite='GitHam10p' %}.** _If $$S$$ is a countable Scott set then the class of all countable $$S$$-saturated models of $$\mathcal{U}$$ with standard system $$S$$ satisfies the multiverse axioms if and only if this class is nonempty._
+**Theorem {% include p.cite _='GitHam10p' %}.** _If $$S$$ is a countable Scott set then the class of all countable $$S$$-saturated models of $$\mathcal{U}$$ with standard system $$S$$ satisfies the multiverse axioms if and only if this class is nonempty._
 
 Moreover, with our two additional assumptions, every multiverse trunk consisting of truly countable models is precisely of this form.[^4]
 
@@ -88,7 +87,7 @@ _Do you prefer the universe or the multiverse?_
 
 ---
 
-[^1]: These designations differ from {% include p cite='Ham12b' %} since I wanted to use the emphasize how each one opposes the universe perspective. Hamkins refers to the _Uncountability Mirage_ as the _Countability Principle_ and to the _Undefinability Mirage_ as _Absorption into L_. The _Finiteness Mirage_ is not present in {% include p cite='Ham12b' %} but the _Wellfoundedness Mirage_ takes this stronger form in {% include p cite='GitHam10p' %}.
+[^1]: These designations differ from {% include p.cite _='Ham12b' %} since I wanted to use the emphasize how each one opposes the universe perspective. Hamkins refers to the _Uncountability Mirage_ as the _Countability Principle_ and to the _Undefinability Mirage_ as _Absorption into L_. The _Finiteness Mirage_ is not present in {% include p.cite _='Ham12b' %} but the _Wellfoundedness Mirage_ takes this stronger form in {% include p.cite _='GitHam10p' %}.
 
 [^2]: Any primitive recursive coding will do. For example, every binary sequence $$\sigma$$ of length $$\ell$$ can be coded by the number $$\#\sigma = 2^{\ell} + \sigma(\ell-1)\cdot2^{\ell-1}+\cdots+\sigma(1)\cdot2+\sigma(0)$$ and a binary tree $$T$$ can then be coded by the set $$\set{\#\sigma : \sigma \in T}$$. A path through $$T$$ is then a set $$P$$ such that $$2^{\ell} + \sum_{k \lt \ell, k \in P} 2^k \in T$$ for every $$\ell.$$
 
@@ -98,3 +97,5 @@ _Do you prefer the universe or the multiverse?_
 
 [^5]: We only need to make sure that every subset of $$\omega$$ in our divine world is contained in the standard system of a selected trunk in order to satisfy the Divine Comprehension assumption.
 
+
+{% include cite.md %}

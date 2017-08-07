@@ -15,7 +15,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: news
+      layout: post
       section: news
       permalink: /news/:year-:month-:day-:title.html
   - scope:

@@ -6,9 +6,8 @@ published: true
 categories: [mathematical-philosophy, set-theory]
 tags: [Axiom of Choice, Excluded Middle, Intuitionistic Logic]
 people: [Per Martin-Löf, Peter Aczel, Radu Diaconescu]
-bibliography: [Dia75r]
 ---
-{% include t cite='Dia75r' %} showed that the Axiom of Choice implies the Principle of Excluded Middle. More specifically, he showed that every topos that satisfies (a very mild form of) the Axiom of Choice is Boolean. Diaconescu's argument applies in many other contexts too. In this post, I will present a variant of that argument. I will keep the context of the argument deliberately ambiguous to demonstrate its broad applicability. 
+{% include t.cite _='Dia75r' %} showed that the Axiom of Choice implies the Principle of Excluded Middle. More specifically, he showed that every topos that satisfies (a very mild form of) the Axiom of Choice is Boolean. Diaconescu's argument applies in many other contexts too. In this post, I will present a variant of that argument. I will keep the context of the argument deliberately ambiguous to demonstrate its broad applicability. 
 
 A set $$a$$ is **decidable** if $$x = y \lor x \neq y$$ holds for all $$x, y \in a.$$ In other words, $$a$$ is decidable if the diagonal $$\set{(x,x) : x \in a}$$ is complemented in $$a \times a.$$ The empty set and singleton sets are trivially decidable, but some more complicated sets are decidable too. For example, one can use induction to show that the set of natural numbers is decidable. This and the following fact shows that every set of natural numbers, in particular $$\set{0,1},$$ is also decidable. 
 
@@ -36,3 +35,5 @@ It so happens that one very important aspect of the argument is non constructive
 
 Of course, there are constructive theories that are extensional, such as Aczel's CZF, but these theories reject the Axiom of Choice. On the other hand, Martin-Löf's constructive type theory (ML) is an example of an intensional constructive theory. Ironically, Aczel's interpretation of CZF in ML makes extensive use of the fact that ML validates the Axiom of Choice. 
 
+
+{% include cite.md %}

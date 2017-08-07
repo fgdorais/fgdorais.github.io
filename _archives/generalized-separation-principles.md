@@ -6,7 +6,6 @@ published: true
 categories: [computability, reverse-math]
 tags: [Weak König Lemma]
 people: [Carl Jockusch, Doug Cenzer, Itay Neeman, Peter Hinman, Richard Friedberg]
-bibliography: [CenHin08r, Joc89f, Nee11m]
 ---
 It is well-known that computability theory and reverse mathematics have very strong ties. Indeed, the base theory $$\newcommand{\RCA}{\mathsf{RCA}_0}\RCA$$ used in reverse mathematics was designed as the minimal theory that can adequately formulate and prove the basic results of computability theory. Based on the Church–Turing thesis, this is a very reasonable way to capture the proof method known as direct computation in everyday mathematics. Although the ties run very deep, there are always frictions when translating results between computability theory and reverse mathematics. The aim of this post is to talk about different ways of doing this translation but I will do so by talking about a family of generalized separation principles that I recently realized were (non-trivially) equivalent, a fact that had been well known in computability theory for several decades. 
 
@@ -76,7 +75,7 @@ $$\DNR_2 \lthen \DNR_3 \lthen \DNR_4 \lthen \DNR_5 \lthen \cdots$$
 
 _If $$A_0,\dots,A_{k-1}$$ are mutually disjoint enumerable sets, then there is a total function $$G:\N\to\set{0,\dots,k-1}$$ such that $$n \notin A_{G(n)}$$ for every $$n.$$_
 
-In this light, we see that the assumption that the enumerable sets are mutually disjoint is unnecessarily strong: the minimal requirement for the conclusion to hold is that $$A_0 \cap \cdots \cap A_{k-1} = \varnothing.$$ This fact was observed by {% include t cite='CenHin08r' %}, who introduced yet another parameter to formulate the generalized separation principles $$\newcommand{\Sep}{\mathsf{S}}\Sep^\ell_k$$: 
+In this light, we see that the assumption that the enumerable sets are mutually disjoint is unnecessarily strong: the minimal requirement for the conclusion to hold is that $$A_0 \cap \cdots \cap A_{k-1} = \varnothing.$$ This fact was observed by {% include t.cite _='CenHin08r' %}, who introduced yet another parameter to formulate the generalized separation principles $$\newcommand{\Sep}{\mathsf{S}}\Sep^\ell_k$$: 
 
 _If $$A_0,\dots,A_{k-1}$$ are enumerable sets such that the intersection of any $$\ell+1$$ of them is empty, then there is a total function $$G:\N\to\set{0,\dots,k-1}$$ such that $$n \notin A_{G(n)}$$ for every $$n.$$_
 
@@ -86,7 +85,7 @@ At this point, we have a doubly indexed array of generalized separation principl
 ^
 $$\begin{array} && &&& & & \Sep^4_5&\lthen&\cdots\cr && && && \downarrow \cr && && \Sep^3_4 & \lthen & \Sep^3_5&\lthen&\cdots\cr && && \downarrow && \downarrow \cr && \Sep^2_3 &\lthen& \Sep^2_4 &\lthen& \Sep^2_5&\lthen&\cdots\cr && \downarrow && \downarrow && \downarrow\cr \Sep^1_2 &\lthen& \Sep^1_3 &\lthen& \Sep^1_4 &\lthen&\Sep^1_5&\lthen&\cdots \end{array}$$
 ^
- Note that all of these are easy consequences of $$\WKL,$$ so the question is whether any of them are strictly weaker. The following lemma allows us to walk backwards in this array. The argument is due to Richard Friedberg, but it was first published by {% include t cite='Joc89f' %} (for $$\ell=1$$). 
+ Note that all of these are easy consequences of $$\WKL,$$ so the question is whether any of them are strictly weaker. The following lemma allows us to walk backwards in this array. The argument is due to Richard Friedberg, but it was first published by {% include t.cite _='Joc89f' %} (for $$\ell=1$$). 
 
 **Lemma ($$\RCA$$).** _For all positive integers $$k$$ and $$\ell,$$ $$\Sep^{\ell^2}_{k^2}$$ implies $$\Sep^\ell_{k}$$. In particular, $$\DNR_{k^2}$$ implies $$\DNR_k.$$_
 
@@ -142,5 +141,7 @@ While $$\mathsf{I}\Sigma^0_2$$ is the precise amount of induction needed to carr
 
 _Is the assumption $$\mathsf{I}\Sigma^0_2$$ necessary for the last proposition?_
 
-Perhaps there is another argument that only uses $$\mathsf{I}\Sigma^0_1$$ or $$\mathsf{B}\Sigma^0_2$$? Such necessary uses of induction are rare, but an example of this was recently found by {% include t cite='Nee11m' %}. It would be interesting to see if this happens again in this case... 
+Perhaps there is another argument that only uses $$\mathsf{I}\Sigma^0_1$$ or $$\mathsf{B}\Sigma^0_2$$? Such necessary uses of induction are rare, but an example of this was recently found by {% include t.cite _='Nee11m' %}. It would be interesting to see if this happens again in this case... 
 
+
+{% include cite.md %}
