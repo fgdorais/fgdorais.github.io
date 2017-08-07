@@ -1,17 +1,17 @@
-key,name,url
-corduan,Jared Corduan,
-dzhafarov,Damir D. Dzhafarov,http://www.math.uconn.edu/~damir/
-filipow,Rafał Filipów,http://mat.ug.edu.pl/~rfilipow/
-gubkin,Steven Gubkin,
-hamkins,Joel David Hamkins,http://jdh.hamkins.org/
-henrich,Allison Henrich,http://fac-staff.seattleu.edu/henricha/web/
-hirst,Jeff Hirst,http://mathsci2.appstate.edu/~jlh/
-jablan,Slavik Jablan,http://www.mi.sanu.ac.rs/vismath/jablan.html
-johnson,Inga Johnson,http://www.willamette.edu/~ijohnson/Home.html
-klyve,Dominic Klyve,http://sites.google.com/site/profklyve/
-mcdonald,Daniel McDonald,
-mileti,Joe Mileti,http://www.math.grinnell.edu/~miletijo/
-mummert,Carl Mummert,http://m6c.org/
-natkaniec,Tomasz Natkaniec,http://mat.ug.edu.pl/~mattn/
-rivera,Manuel Rivera,http://www.math.miami.edu/news/stories/2016newraps/rivera.htm
-shafer,Paul Shafer,http://www1.maths.leeds.ac.uk/~matpsh/
+key,name,full,url,mrauthorid
+corduan-jr,Jared Corduan,Jared R. Corduan,,911560
+dzhafarov-dd,Damir Dzhafarov,Damir D. Dzhafarov,http://www.math.uconn.edu/~damir/,781680
+filipow-r,Rafał Filipów,Rafał Filipów,http://mat.ug.edu.pl/~rfilipow/,697569
+gubkin-s,Steven Gubkin,Steven Gubkin,,978059
+hamkins-jd,Joel David Hamkins,Joel David Hamkins,http://jdh.hamkins.org/,347679
+henrich-ak,Allison Henrich,Allison K. Henrich,http://fac-staff.seattleu.edu/henricha/web/,900050
+hirst-jl,Jeff Hirst,Jeffry L. Hirst,http://mathsci2.appstate.edu/~jlh/,242430
+jablan-s,Slavik Jablan,Slavik Vlado Jablan,http://www.mi.sanu.ac.rs/vismath/jablan.html,92465
+johnson-i,Inga Johnson,Inga Johnson,http://www.willamette.edu/~ijohnson/Home.html,735074
+klyve-d,Dominic Klyve,Dominic Klyve,http://sites.google.com/site/profklyve/,776121
+mcdonald-dc,Daniel McDonald,Daniel C. McDonald,,1022728
+mileti-jr,Joe Mileti,Joseph R. Mileti,http://www.math.grinnell.edu/~miletijo/,820988
+mummert-c,Carl Mummert,Carl Mummert,http://m6c.org/,735104
+natkaniec-t,Tomasz Natkaniec,Tomasz Natkaniec,http://mat.ug.edu.pl/~mattn/,129680
+rivera-m,Manuel Rivera,Manuel Rivera,http://www.math.miami.edu/news/stories/2016newraps/rivera.htm,1022985
+shafer-p,Paul Shafer,Paul Shafer,http://www1.maths.leeds.ac.uk/~matpsh/,920651

@@ -30,6 +30,6 @@ permalink: /papers/
 <h4>Coauthors</h4>
 <ul class="listing">
   {% for a in site.data.coauthors %}
-  <li><a{% if a.url %} href="{{ a.url }}"{% endif %} target="_blank">{{ a.name }}</a></li>
+  <li><a{% if a.url %} href="{{ a.url }}"{% endif %} target="_blank">{{ a.name }}</a> (MR Author ID: <a href="http://www.ams.org/mathscinet/MRAuthorID/{{ a.mrauthorid }}" target="_blank">{{ a.mrauthorid }}</a>)</li>
   {% endfor %}
 </ul>
