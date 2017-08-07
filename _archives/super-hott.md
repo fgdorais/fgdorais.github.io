@@ -3,7 +3,7 @@ title: Super HoTT
 date: 2014-01-19 20:31:52
 permalink: /archives/1543/
 published: true
-categories: [type-theory]
+topics: [type-theory]
 tags: [Homotopy Type Theory]
 people: [Andrej Bauer, Erik Palmgren]
 ---

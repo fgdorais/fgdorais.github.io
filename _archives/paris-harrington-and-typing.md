@@ -3,7 +3,7 @@ title: Paris-Harrington and Typing
 date: 2011-10-14 04:44:34
 permalink: /archives/107/
 published: true
-categories: [independence-proofs, set-theory]
+topics: [independence-proofs, set-theory]
 tags: [New Foundations, Paris-Harrington Theorem, Peano Arithmetic]
 people: [Harvey Friedman, Thomas Forster]
 ---

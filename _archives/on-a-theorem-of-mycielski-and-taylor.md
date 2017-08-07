@@ -3,10 +3,11 @@ title: On a theorem of Mycielski and Taylor
 date: 2011-11-06 19:28:03
 permalink: /archives/503/
 published: true
-categories: [combinatorics, set-theory]
+topics: [combinatorics, set-theory]
 tags: [Cardinal Characteristics, Independent Sets, Polish Spaces, Ramsey Theory]
 people: [Alan Taylor, Andreas Blass, Fred Galvin, Jan Mycielski, Rafał Filipów, Tomasz Natkaniec]
 ---
+
 {% include t.cite _='Myc64n' %} proved a wonderful theorem about independent sets in Polish spaces. He showed that if $$X$$ is an uncountable Polish space and $$R_n$$ is a meager subset of $$X^n$$ for each $$n \geq 1$$, then there is a perfect set $$Z \subseteq X$$ such that $$(z_1,\dots,z_n) \notin R_n$$ whenever $$z_1,\dots,z_n$$ are distinct elements of $$Z$$. In other words, $$Z$$ is $$R_n$$-independent for each $$n \geq 1$$. This is a wonderfully general theorem that has a multitude of applications. 
 
 One of my favorite theorems where Mycielski's Theorem comes in handy is a remarkable partition theorem due to Fred Galvin. 

@@ -3,7 +3,7 @@ title: Santa Exists!
 date: 2011-10-15 15:38:37
 permalink: /archives/317/
 published: true
-categories: [mathematical-philosophy, proof-theory, set-theory]
+topics: [mathematical-philosophy, proof-theory, set-theory]
 tags: [Intuitionistic Logic, Minimal Logic, Russell's Paradox, Self-Reference]
 people: [Bertrand Russell, Haskell Curry]
 ---

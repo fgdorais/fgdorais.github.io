@@ -3,7 +3,7 @@ title: Classically valid theorems of intuitionistic analysis
 date: 2011-10-30 18:14:30
 permalink: /archives/448/
 published: true
-categories: [proof-theory, reverse-math]
+topics: [proof-theory, reverse-math]
 tags: [Intuitionistic Logic, Realizability]
 people: [Anne Troelstra, Carl Mummert, Jaap van Oosten, Jeff Hirst, L. E. J. Brouwer]
 ---

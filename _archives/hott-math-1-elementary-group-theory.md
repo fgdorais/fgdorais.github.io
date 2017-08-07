@@ -3,7 +3,7 @@ title: "HoTT Math 1: Elementary group theory"
 date: 2013-06-23 18:00:38
 permalink: /archives/1438/
 published: true
-categories: [type-theory]
+topics: [type-theory]
 tags: [Homotopy Type Theory]
 ---
 This is the first in a series of posts on doing mathematics in Homotopy Type Theory (HoTT). Various conventions and notations are explained in [the preamble]({{ site.baseurl }}{% post_url 2013-06-23-hott-math-series %}); there are no additional prerequisites for this post. 

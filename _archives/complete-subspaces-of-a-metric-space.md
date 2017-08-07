@@ -3,7 +3,7 @@ title: Complete subspaces of a metric space
 date: 2011-10-14 19:10:57
 permalink: /archives/260/
 published: true
-categories: [topology, set-theory]
+topics: [topology, set-theory]
 tags: [Cardinal characteristics, Galois-Tukey connections, MathOverflow, Metric spaces]
 people: [Andreas Blass, Frank Tall, Peter Vojtáš]
 ---

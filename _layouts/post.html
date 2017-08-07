@@ -1,7 +1,17 @@
 ---
 layout: default
 ---
+{% if page.topics %}
+<ul id="topics" class="hlist">
+  Topics
+  {% for t in page.topics %}
+  <li><a href="{{ '/archives/topic.html#' | append: t | relative_url }}">{{ site.topic_map[t] }}</a></li>
+  {% endfor %}
+</ul>
+<hr />
+{% endif %}  
 <h2>{{ page.title }}</h2>
+
 
 {{ content }}
 

@@ -3,7 +3,7 @@ title: Subposets of small dimension
 date: 2012-02-18 16:18:28
 permalink: /archives/656/
 published: true
-categories: [combinatorics, reverse-math, set-theory]
+topics: [combinatorics, reverse-math, set-theory]
 tags: [Dushnik-Miller Dimension, MathOverflow, Open Problems, Posets, Ramsey Theory]
 people: [Denis Hirschfeldt, Justin Tatch Moore, Richard Shore, Tom Goodwillie, Wacław Sierpiński]
 ---

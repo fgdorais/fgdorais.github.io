@@ -3,7 +3,7 @@ title: A partition theorem for finite trees
 date: 2012-03-03 19:32:37
 permalink: /archives/781/
 published: true
-categories: [combinatorics]
+topics: [combinatorics]
 tags: [Ramsey Theory, Finite Trees, Ultrametric Spaces]
 people: [Alexander Kechris, Daniel McDonald, Frank Ramsey, Lionel Nguyen van Thé, Manuel Rivera, Richard Rado, Steven Gubkin, Stevo Todorcevic, Vladimir Pestov]
 ---

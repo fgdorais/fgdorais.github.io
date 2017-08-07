@@ -1,0 +1,19 @@
+---
+title: Posts
+layout: list
+mode: topic
+section: archives
+permalink: /archives/topic.html
+---
+{% for _ in site.topic_map %}
+{% assign t = _[0] %}
+<h4 id="{{ t }}">{{ site.topic_map[t] }}</h4>
+<ul class="listing">
+  {% assign posts = site.archives | where_exp: "p", "p.topics contains t" %}
+  {% for p in posts %}
+  <li>
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

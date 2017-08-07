@@ -3,7 +3,7 @@ title: Diaconescu's Theorem
 date: 2012-07-18 16:31:24
 permalink: /archives/1031/
 published: true
-categories: [mathematical-philosophy, set-theory]
+topics: [mathematical-philosophy, set-theory]
 tags: [Axiom of Choice, Excluded Middle, Intuitionistic Logic]
 people: [Per Martin-Löf, Peter Aczel, Radu Diaconescu]
 ---

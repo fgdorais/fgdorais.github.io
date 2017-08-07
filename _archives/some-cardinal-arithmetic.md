@@ -3,7 +3,7 @@ title: Some Cardinal Arithmetic
 date: 2014-11-09 20:09:55
 permalink: /archives/1593/
 published: true
-categories: [combinatorics, set-theory]
+topics: [combinatorics, set-theory]
 tags: [Axiom of Choice, Cardinal Arithmetic]
 people: [Asaf Karagila, Harvey Friedman, Peter Krautzberger]
 ---

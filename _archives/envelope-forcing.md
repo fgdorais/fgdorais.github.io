@@ -3,7 +3,7 @@ title: Envelope forcing
 date: 2012-05-06 18:02:01
 permalink: /archives/827/
 published: true
-categories: [combinatorics, computability, independence-proofs, reverse-math]
+topics: [combinatorics, computability, independence-proofs, reverse-math]
 tags: [Forcing, Ramsey Theory]
 people: [Denis Hirschfeldt, Jared Corduan, Reed Solomon, Richard Shore, Rod Downey, Steffen Lempp]
 ---

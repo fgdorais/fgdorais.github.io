@@ -3,7 +3,7 @@ title: Generalized separation principles
 date: 2012-02-26 16:09:16
 permalink: /archives/650/
 published: true
-categories: [computability, reverse-math]
+topics: [computability, reverse-math]
 tags: [Weak König Lemma]
 people: [Carl Jockusch, Doug Cenzer, Itay Neeman, Peter Hinman, Richard Friedberg]
 ---

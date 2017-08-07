@@ -3,7 +3,7 @@ title: Stationary strategies in Choquet games
 date: 2011-10-14 04:46:41
 permalink: /archives/38/
 published: true
-categories: [topology, games]
+topics: [topology, games]
 tags: [Choquet game, MF spaces]
 people: [Carl Mummert, Frank Stephan]
 ---

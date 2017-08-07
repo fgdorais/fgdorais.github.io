@@ -3,7 +3,7 @@ title: On computing complex square roots
 date: 2011-10-22 16:15:34
 permalink: /archives/377/
 published: true
-categories: [computability, reverse-math]
+topics: [computability, reverse-math]
 ---
 What could possibly be interesting about complex square roots? That's what I thought until very recently when I realized that complex square roots are significantly more difficult to compute than real square roots. Let me explain why by putting you in a context where you need to teach students how to compute complex square roots... 
 

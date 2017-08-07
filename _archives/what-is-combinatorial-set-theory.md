@@ -3,7 +3,7 @@ title: What is combinatorial set theory?
 date: 2013-05-11 14:51:55
 permalink: /archives/1394/
 published: true
-categories: [combinatorics, set-theory]
+topics: [combinatorics, set-theory]
 tags: [Combinatorial Set Theory]
 people: [Jim Baumgartner, Ken Kunen, Neil Williams, Thomas Jech]
 ---

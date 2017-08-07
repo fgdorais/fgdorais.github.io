@@ -3,7 +3,7 @@ title: "HoTT Math 3: Unit group of a ring"
 date: 2013-07-14 20:30:01
 permalink: /archives/1488/
 published: true
-categories: [type-theory]
+topics: [type-theory]
 tags: [Homotopy Type Theory]
 ---
 In this installment of [HoTT Math]({{ site.baseurl }}{% post_url 2013-06-23-hott-math-series %}), we are taking one more step toward elementary field theory by exploring the unit group of a ring.

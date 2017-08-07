@@ -3,7 +3,7 @@ title: Towsner's stable forcing
 date: 2013-02-08 15:09:36
 permalink: /archives/1203/
 published: true
-categories: [independence-proofs, reverse-math]
+topics: [independence-proofs, reverse-math]
 tags: [Forcing, Second-Order Arithmetic]
 people: [Henry Towsner, Ted Slaman]
 ---

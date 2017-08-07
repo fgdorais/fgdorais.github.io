@@ -32,14 +32,28 @@ defaults:
       section: archives
       layout: post
 
+# Topics
+topic_map:
+  combinatorics: Combinatorics
+  computability: Computability Theory
+  independence-proofs: Forcing and Independence Proofs
+  games: Mathematical Games
+  mathematical-philosophy: Mathematical Philosophy
+  model-theory: Model Theory
+  proof-theory: Proof Theory
+  reverse-math: Reverse Mathematics
+  set-theory: Set Theory
+  topology: Topology
+  type-theory: Type Theory
+
 # Sorting modes
 sorting:
-  - name: category
-    url: /archives/category.html
   - name: date
     url: /archives/date.html
   - name: title
     url: /archives/title.html
+  - name: topic
+    url: /archives/topic.html
 
 # Navigation
 page_nav:
@@ -51,7 +65,7 @@ page_nav:
     url: /papers/index.html
   - title: "Posts"
     section: archives
-    url: /archives/category.html
+    url: /archives/topic.html
   - title: "News"
     section: news
     url: /news/index.html

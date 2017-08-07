@@ -3,7 +3,7 @@ title: Back to Cantor?
 date: 2012-12-28 19:05:07
 permalink: /archives/1135/
 published: true
-categories: [category-theory, mathematical-philosophy, set-theory]
+topics: [category-theory, mathematical-philosophy, set-theory]
 tags: [ETCS, ZFC]
 people: [Bill Lawvere, Ernst Zermelo, Georg Cantor, Tom Leinster]
 ---

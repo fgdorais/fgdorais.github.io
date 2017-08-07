@@ -3,7 +3,7 @@ title: Homotopy Type Theory
 date: 2013-06-22 16:41:15
 permalink: /archives/1425/
 published: true
-categories: [mathematical-philosophy, proof-theory, type-theory]
+topics: [mathematical-philosophy, proof-theory, type-theory]
 tags: [HoTT, Univalence]
 ---
 After a productive year at the Institute for Advanced Study, the Univalent Foundations Program has written a book on [Homotopy Type Theory](http://homotopytypetheory.org/book/) (HoTT). The foreword gives a succinct description of the purpose of this book:

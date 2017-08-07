@@ -3,7 +3,7 @@ title: Arithmetical consequences of the set-theoretic multiverse
 date: 2013-02-10 21:33:06
 permalink: /archives/1193/
 published: true
-categories: [mathematical-philosophy, set-theory]
+topics: [mathematical-philosophy, set-theory]
 tags: [Set-Theoretic Multiverse]
 people: [Joel David Hamkins, Victoria Gitman]
 ---

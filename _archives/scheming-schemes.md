@@ -3,7 +3,7 @@ title: Scheming schemes...
 date: 2012-08-15 20:22:16
 permalink: /archives/1080/
 published: true
-categories: [model-theory, reverse-math, set-theory]
+topics: [model-theory, reverse-math, set-theory]
 tags: [MathOverflow, Reflection Principles]
 people: [Joel David Hamkins]
 ---

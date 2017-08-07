@@ -3,7 +3,7 @@ title: Counting Birds...
 date: 2011-10-15 17:35:30
 permalink: /archives/335/
 published: true
-categories: [mathematical-philosophy]
+topics: [mathematical-philosophy]
 tags: [Decidability, MathOverflow]
 people: [Jorge Luis Borges, José Figueroa-O'Farrill, Mariano Suárez-Alvarez, Noam Elkies]
 ---

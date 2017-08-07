@@ -3,7 +3,7 @@ title: A game-theoretic proof of Fraïssé's Theorem
 date: 2011-10-14 04:44:33
 permalink: /archives/72/
 published: true
-categories: [games, model-theory]
+topics: [games, model-theory]
 tags: [Ehrenfeucht-Fraïssé Games, Fraïssé's Theorem, Game Semantics]
 people: [Andrzej Ehrenfeucht, Roland Fraïssé]
 ---

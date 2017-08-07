@@ -3,7 +3,7 @@ title: On the structure of universes in HoTT
 date: 2014-01-17 03:40:20
 permalink: /archives/1532/
 published: true
-categories: [type-theory]
+topics: [type-theory]
 tags: [Homotopy Type Theory]
 people: [Alexander Kuklev, Andrej Bauer, Mike Shulman]
 ---

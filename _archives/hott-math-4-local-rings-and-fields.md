@@ -3,7 +3,7 @@ title: "HoTT Math 4: Local rings and fields"
 date: 2013-12-10 01:13:28
 permalink: /archives/1517/
 published: true
-categories: [type-theory]
+topics: [type-theory]
 tags: [Homotopy Type Theory]
 ---
 It's been a while since the last edition of [HoTT Math]({{ "archives/1448" | relative_url }}). Fall is always very busy for me and I've been composing this installment one $$\varepsilon$$ at a time... We are finally arriving at our destination: fields!

@@ -11,12 +11,16 @@ cite {
   font-style: italic;
 }
 
+small {
+  font-size: 75%;
+}
+
 header { 
   color: #fff; 
   h1, h2, h3, h4, h5, h6 { 
     color: inherit;
     font-weight: bold;
-  } 
+  }
   h3 {
     font-weight: normal;
     font-style: italic;
@@ -68,6 +72,11 @@ ol#bibliography {
 ul.listing {
   list-style-type: circle;
   a { color: inherit }
+}
+
+ul#topics {
+  font-size: 12px;
+  text-align: right;
 }
 
 p#license {

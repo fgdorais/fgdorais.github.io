@@ -3,7 +3,7 @@ title: "HoTT Math 2: More on equational logic"
 date: 2013-07-14 16:03:09
 permalink: /archives/1476/
 published: true
-categories: [type-theory]
+topics: [type-theory]
 tags: [Equational Logic, Homotopy Type Theory, Universal Algebra]
 people: [Garrett Birkhoff]
 ---

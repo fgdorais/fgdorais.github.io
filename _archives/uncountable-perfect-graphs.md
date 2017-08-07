@@ -3,7 +3,7 @@ title: Uncountable perfect graphs
 date: 2011-11-06 15:03:58
 permalink: /archives/431/
 published: true
-categories: [combinatorics, set-theory]
+topics: [combinatorics, set-theory]
 tags: [Chordal Graphs, Comparability Graphs, Interval Graphs, Perfect Graphs]
 people: [Claude Berge, Fred Galvin, László Lovász, Maria Chudnovsky, Misha Perles, Neil Robertson, Paul Seymour, Richard Rado, Robin Thomas, Ron Aharoni, Stan Wagon, Stevo Todorcevic, Uri Abraham]
 ---
