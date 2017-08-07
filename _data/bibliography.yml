@@ -93,6 +93,12 @@ Dia75r:
   title: Axiom of choice and complementation
   year: 1975
   zbl: '0317.02077'
+Dor10z:
+  authors: [F. G. Dorais]
+  cite: MathOverflow question 29169
+  title: Subposets of small Dushnik-Miller dimension
+  year: 2010
+  url: 'https://mathoverflow.net/q/29169'
 Dor11w:
   arxiv: '1207.6434'
   authors: [F. G. Dorais]
@@ -117,7 +123,7 @@ DorFil05p:
   cite: Real Anal. Exchange 31, no. 1, 133--142
   mr: '2218194'
   title: Algebraic sums of sets in Marczewski-Burstin algebras
-  url: projecteuclid.org/euclid.rae/1149516801
+  url: 'https://projecteuclid.org/euclid.rae/1149516801'
   year: 2005
   zbl: '1106.28001'
 DorFilNat13u:
@@ -169,6 +175,12 @@ GitHam10p:
   title: A natural model of the multiverse axioms
   year: 2010
   zbl: '1214.03035'
+Goo10z:
+  authors: [T. Goodwillie]
+  cite: MathOverflow answer 29570
+  title: Subposets of small Dushnik-Miller dimension
+  year: 2010
+  url: 'https://mathoverflow.net/a/29570'
 Ham12b:
   arxiv: '1108.4223'
   authors: [J. D. Hamkins]
@@ -227,7 +239,7 @@ Law05v:
   cite: Repr. Theory Appl. Categ. No. 11, 1--35
   mr: '2177727'
   title: An elementary theory of the category of sets (long version) with commentary
-  url: http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html
+  url: 'http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html'
   year: 2005
 Law64a:
   authors: [F. W. Lawvere]
@@ -291,7 +303,7 @@ Myc64n:
   cite: Fund. Math. 55, no. 2, 139--147
   mr: '0173645'
   title: Independent sets in topological algebras
-  url: pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-fmv55i1p12bwm
+  url: 'http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-fmv55i1p12bwm'
   year: 1964
   zbl: '0124.01301'
 Nee11m:
@@ -356,7 +368,7 @@ Tay78b:
   cite: Fund. Math. 99, no. 1, 51--59
   mr: 0465873
   title: Partitions of pairs of reals
-  url: pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-fmv99i1p7bwm
+  url: 'http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-fmv99i1p7bwm'
   year: 1978
   zbl: '0377.04010'
 Tod11q:

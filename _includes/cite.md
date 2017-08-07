@@ -23,7 +23,7 @@
    {% if ref.doi %}
    * doi: <a href="https://doi.org/{{ ref.doi | uri_escape }}">{{ ref.doi }}</a>
    {% elsif ref.url %}
-   * <a href="http://{{ ref.url | uri_escape }}">{{ ref.url }}</a>
+   * <a href="{{ ref.url | uri_escape }}">{{ ref.url | remove_first: 'http://' | remove_first: 'https://' }}</a>
    {% endif %}
 
 {% endfor %}
