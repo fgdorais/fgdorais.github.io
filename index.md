@@ -3,7 +3,7 @@ layout: default
 section: home
 title: Home
 --- 
-## Welcome to Research Site
+## Welcome to my Research Site
 
 This is the place to find information on my research interests and related topics. The site contents are divided into three main sections:
 
