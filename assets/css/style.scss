@@ -6,6 +6,9 @@
 a {
   color: #070;
 }
+a:hover, a:focus {
+  font: inherit;
+}
 
 cite {
   font-style: italic;
