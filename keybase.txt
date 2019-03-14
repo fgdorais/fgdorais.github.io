@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/fgdorais
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.dorais.org
+  * I am fgdorais (https://keybase.io/fgdorais) on keybase.
+  * I have a public key ASA6dp-29_h50jj4Zbe4id-U073p5WOKmjT0B89KgYkotQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203a769fb6f7f879d238f865b7b889df94d3bde9e5638a9a34f407cf4a818928b50a",
+      "host": "keybase.io",
+      "kid": "01203a769fb6f7f879d238f865b7b889df94d3bde9e5638a9a34f407cf4a818928b50a",
+      "uid": "5652cc6b61c2c321f242dd7711d74519",
+      "username": "fgdorais"
+    },
+    "merkle_root": {
+      "ctime": 1552570964,
+      "hash": "33a36bf4859aeb91367d6593163cc5199703a124df56474e1f9eac402b536a46ca95459eeaf0d473101dfe9986a3ffacc5811f58d104f97522870cf8607b1b90",
+      "hash_meta": "9949d4146486daf40cf7c3b591a59c3208dfd4303eb72fa25c409f3d7162a279",
+      "seqno": 4947769
+    },
+    "service": {
+      "entropy": "fw4xgT4U9/GY+Z2oTIGw7TFg",
+      "hostname": "www.dorais.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1552571007,
+  "expire_in": 504576000,
+  "prev": "8b2d3736ce5cbbb98a45d124c3e77ad7b578c77923423fceced841802ef1d063",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOnaftvf4edI4+GW3uInflNO96eVjipo09AfPSoGJKLUKp3BheWxvYWTESpcCBsQgiy03Ns5cu7mKRdEkw+d617V4x3kjQj/OzthBgC7x0GPEIPNn48SecFLRauq/gA9B6LblSbmk7w9c+eGKP2hjTL1qAgHCo3NpZ8RAsvbYAnyLc1forrjAMNAPWFzqH8YHIw9dbw+o2X+Thu/VLw6T/ZnaSpaf+Yecfj9MsXua4GakHQ2ARMnjeiZEC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP6I0UM0sncCwPvdsPzBtu1px+JMpqHp23dDnGWSjjQNo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fgdorais
+
+==================================================================
